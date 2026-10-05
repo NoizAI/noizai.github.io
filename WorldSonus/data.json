@@ -1,0 +1,2595 @@
+{
+  "schema": "worldsonus.demo.v1",
+  "title": "WorldSonus",
+  "sections": [
+    {
+      "id": "generated",
+      "label": "Generated worlds",
+      "short_label": "Worlds",
+      "description": "Sound for videos produced by diverse world and video models.",
+      "cases": [
+        {
+          "id": "local_reproductions__echo_wm_flash__case_124",
+          "section": "generated",
+          "title": "Case 01",
+          "kicker": "",
+          "duration_sec": 16,
+          "resolution": "1280×704",
+          "note": "",
+          "prompt_label": "Video prompt",
+          "prompts": [
+            {
+              "start_sec": 0,
+              "caption": "Outer space in cinematic photorealistic style. Deep black space filled with stars, Earth's curved blue edge visible in the lower portion of the background, dramatic sunlight from the right. A zero-gravity environment with no ground or reference surfaces. Ahead in the distance, a section of a space station with silver solar panel arrays glints in the sunlight. To the right, a faint band of the Milky Way stretches across the star field. Scattered small debris fragments and a tethered tool bag float nearby in the void. An astronaut wearing a white NASA-style EVA spacesuit with a gold-tinted visor helmet and an American flag patch on the left arm. The astronaut floats in a zero-gravity drift with a relaxed weightless pose, arms slightly spread, no ground contact. Third-person perspective. The camera is positioned behind and slightly above the astronaut, centered in frame, following the astronaut's floating drift through space."
+            }
+          ],
+          "poster": "./assets/posters/generated-local_reproductions__echo_wm_flash__case_124-frame0.jpg",
+          "videos": [
+            {
+              "id": "worldsonus",
+              "label": "WorldSonus",
+              "url": "https://soundreactor-wbench-public-728750562872-20260920.s3.us-east-2.amazonaws.com/demo-v1/hevc25-20260929-v1/media/generated/local_reproductions__echo_wm_flash__case_124/worldsonus.mp4",
+              "fallback_url": "https://soundreactor-wbench-public-728750562872-20260920.s3.us-east-2.amazonaws.com/demo-v1/h264720p25-20260929-v1/media/generated/local_reproductions__echo_wm_flash__case_124/worldsonus.mp4",
+              "mel": {
+                "url": "./assets/mel/generated-local_reproductions__echo_wm_flash__case_124-worldsonus.png",
+                "fps": 50,
+                "duration": 16,
+                "frames": 800
+              }
+            }
+          ],
+          "source_model": "JoyAI-Echo-1.5 (WM) — Flash Preview",
+          "fallback_resolution": "1280×704"
+        },
+        {
+          "id": "local_reproductions__echo_wm_flash__case_145",
+          "section": "generated",
+          "title": "Case 02",
+          "kicker": "",
+          "duration_sec": 16,
+          "resolution": "1280×704",
+          "note": "",
+          "prompt_label": "Video prompt",
+          "prompts": [
+            {
+              "start_sec": 0,
+              "caption": "An underwater scene in cinematic style. Calm blue water with colorful yellow-striped fish swimming at various depths, green seagrass swaying on the sandy seabed, and a sunken shipwreck in the distance. Air bubbles rising upward. Natural underwater light filtering from above. Above, the shimmering water surface ripples with refracted sunlight, becoming brighter when ascending. Beyond the current view below and ahead, a coral reef formation with sea anemones and a school of silver fish extends along the seabed. Beyond the current view to the right, a rocky underwater cliff drops off into darker deep water. Beyond the current view, a sea turtle glides slowly in the mid-distance. First-person POV looking through scuba diving goggles. The black rubber rim of the diving mask frames the entire view like a vignette border around all edges. The mask glass has slight water droplets and minor fogging at the edges."
+            }
+          ],
+          "poster": "./assets/posters/generated-local_reproductions__echo_wm_flash__case_145-frame0.jpg",
+          "videos": [
+            {
+              "id": "worldsonus",
+              "label": "WorldSonus",
+              "url": "https://soundreactor-wbench-public-728750562872-20260920.s3.us-east-2.amazonaws.com/demo-v1/hevc25-20260929-v1/media/generated/local_reproductions__echo_wm_flash__case_145/worldsonus.mp4",
+              "fallback_url": "https://soundreactor-wbench-public-728750562872-20260920.s3.us-east-2.amazonaws.com/demo-v1/h264720p25-20260929-v1/media/generated/local_reproductions__echo_wm_flash__case_145/worldsonus.mp4",
+              "mel": {
+                "url": "./assets/mel/generated-local_reproductions__echo_wm_flash__case_145-worldsonus.png",
+                "fps": 50,
+                "duration": 16,
+                "frames": 800
+              }
+            }
+          ],
+          "source_model": "JoyAI-Echo-1.5 (WM) — Flash Preview",
+          "fallback_resolution": "1280×704"
+        },
+        {
+          "id": "local_reproductions__echo_wm_flash__case_052",
+          "section": "generated",
+          "title": "Case 03",
+          "kicker": "",
+          "duration_sec": 16,
+          "resolution": "1280×704",
+          "note": "",
+          "prompt_label": "Video prompt",
+          "prompts": [
+            {
+              "start_sec": 0,
+              "caption": "A tropical sandy beach with golden sand, turquoise ocean waves, palm trees lining the shore, and a distant green hillside under a bright blue sky with scattered clouds. Ahead toward the ocean, shallow surf breaks over a sandbar. Beyond the current view, a few swimmers wade in the water. Behind the current view, a row of thatched beach huts and rental umbrellas line the upper beach near a paved promenade. First-person view at eye level, looking toward the ocean along the beach."
+            }
+          ],
+          "poster": "./assets/posters/generated-local_reproductions__echo_wm_flash__case_052-frame0.jpg",
+          "videos": [
+            {
+              "id": "worldsonus",
+              "label": "WorldSonus",
+              "url": "https://soundreactor-wbench-public-728750562872-20260920.s3.us-east-2.amazonaws.com/demo-v1/hevc25-20260929-v1/media/generated/local_reproductions__echo_wm_flash__case_052/worldsonus.mp4",
+              "fallback_url": "https://soundreactor-wbench-public-728750562872-20260920.s3.us-east-2.amazonaws.com/demo-v1/h264720p25-20260929-v1/media/generated/local_reproductions__echo_wm_flash__case_052/worldsonus.mp4",
+              "mel": {
+                "url": "./assets/mel/generated-local_reproductions__echo_wm_flash__case_052-worldsonus.png",
+                "fps": 50,
+                "duration": 16,
+                "frames": 800
+              }
+            }
+          ],
+          "source_model": "JoyAI-Echo-1.5 (WM) — Flash Preview",
+          "fallback_resolution": "1280×704"
+        },
+        {
+          "id": "local_reproductions__zing_0_5__case_114",
+          "section": "generated",
+          "title": "Case 04",
+          "kicker": "",
+          "duration_sec": 16,
+          "resolution": "832×480",
+          "note": "",
+          "prompt_label": "Video prompt",
+          "prompts": [
+            {
+              "start_sec": 0,
+              "caption": "Underwater ancient ruins on a sandy seabed. Broken marble columns covered in barnacles and coral. Seashells and colorful coral in the foreground. A ruined temple archway in the background. Bioluminescent jellyfish drifting through the water. Volumetric light rays streaming from the surface above. A sunken clay amphora on the right. CG rendered fantasy style with underwater caustic lighting. Off-screen ahead: a grand sunken marble staircase descending into a darker trench, with a mosaic floor partially visible under sand. Off-screen to the right: a coral-encrusted shipwreck hull with a broken mast and barnacle-covered treasure chest. Off-screen behind: a school of tropical fish swirling around a fallen statue of a sea god. Off-screen to the left: a sea cave entrance with glowing anemones and a giant clam shell. A mermaid with a shimmering blue-green tail and a coral crown, seen from behind swimming gracefully through the ruins. Third-person perspective, rear view, medium shot following the mermaid who is at horizontal center of the frame."
+            }
+          ],
+          "poster": "./assets/posters/generated-local_reproductions__zing_0_5__case_114-frame0.jpg",
+          "videos": [
+            {
+              "id": "worldsonus",
+              "label": "WorldSonus",
+              "url": "https://soundreactor-wbench-public-728750562872-20260920.s3.us-east-2.amazonaws.com/demo-v1/hevc25-20260929-v1/media/generated/local_reproductions__zing_0_5__case_114/worldsonus.mp4",
+              "fallback_url": "https://soundreactor-wbench-public-728750562872-20260920.s3.us-east-2.amazonaws.com/demo-v1/h264720p25-20260929-v1/media/generated/local_reproductions__zing_0_5__case_114/worldsonus.mp4",
+              "mel": {
+                "url": "./assets/mel/generated-local_reproductions__zing_0_5__case_114-worldsonus.png",
+                "fps": 50,
+                "duration": 16,
+                "frames": 800
+              }
+            }
+          ],
+          "source_model": "Zing-0.5",
+          "fallback_resolution": "832×480"
+        },
+        {
+          "id": "hf_public__wan__case_065",
+          "section": "generated",
+          "title": "Case 05",
+          "kicker": "",
+          "duration_sec": 16,
+          "resolution": "1926×1076",
+          "note": "",
+          "prompt_label": "Video prompt",
+          "prompts": [
+            {
+              "start_sec": 0,
+              "caption": "A calm ocean at sunset with a glassy water surface reflecting warm golden and pink hues, an orange-pink sky with layered clouds, distant headlands and small islands on the horizon, and low golden sunlight from behind. Below near the water surface, gentle swells create subtle ripple patterns, a few jellyfish drift just under the surface, and a fishing boat with navigation lights sits in the middle distance. Higher up, the sky deepens to violet with the first stars becoming faintly visible. A white seagull with grey wing tips and an orange beak, wings fully spread in flight, its shadow cast on the water surface below. Glides smoothly on ocean air currents with occasional wing adjustments. Third-person view from behind and slightly above the seagull, following it as it flies forward over the ocean surface at sunset."
+            }
+          ],
+          "poster": "./assets/posters/generated-hf_public__wan__case_065-frame0.jpg",
+          "videos": [
+            {
+              "id": "worldsonus",
+              "label": "WorldSonus",
+              "url": "https://soundreactor-wbench-public-728750562872-20260920.s3.us-east-2.amazonaws.com/demo-v1/hevc25-20260929-v1/media/generated/hf_public__wan__case_065/worldsonus.mp4",
+              "fallback_url": "https://soundreactor-wbench-public-728750562872-20260920.s3.us-east-2.amazonaws.com/demo-v1/h264720p25-20260929-v1/media/generated/hf_public__wan__case_065/worldsonus.mp4",
+              "mel": {
+                "url": "./assets/mel/generated-hf_public__wan__case_065-worldsonus.png",
+                "fps": 50,
+                "duration": 16,
+                "frames": 800
+              }
+            }
+          ],
+          "source_model": "Wan 2.7",
+          "fallback_resolution": "1280×716"
+        },
+        {
+          "id": "hf_public__happy__case_157",
+          "section": "generated",
+          "title": "Case 06",
+          "kicker": "",
+          "duration_sec": 12,
+          "resolution": "1296×720",
+          "note": "",
+          "prompt_label": "Video prompt",
+          "prompts": [
+            {
+              "start_sec": 0,
+              "caption": "A realistic living room with an ironing board in the foreground, draped with heavily wrinkled beige/olive garments. Scattered papers and a coffee mug sit on the exposed right side of the table. Behind the table are two comfortable sofas with throw pillows, a patterned area rug on hardwood flooring, and a window on the right allowing soft natural daytime light. The room has a warm, lived-in domestic atmosphere. Beyond the current view to the right, more wrinkled garments hang from a nearby clothing rack. The table surface extends further ahead with exposed wood and additional creased fabric, providing a continuous path for the iron to glide across. A small side table with a water spray bottle sits just off-frame to the left. A dark-colored realistic electric steam iron with a cord, positioned on top of the wrinkled garments on the table. The iron has a slightly heated base plate and glides smoothly across fabric surfaces without visible human interaction, maintaining consistent contact as it moves. Third-person tracking shot from a low angle near table height, centered on the iron. The camera follows the iron as it moves across the fabric surface, keeping it in the center-right of the frame with the living room environment visible in the background."
+            }
+          ],
+          "poster": "./assets/posters/generated-hf_public__happy__case_157-frame0.jpg",
+          "videos": [
+            {
+              "id": "worldsonus",
+              "label": "WorldSonus",
+              "url": "https://soundreactor-wbench-public-728750562872-20260920.s3.us-east-2.amazonaws.com/demo-v1/hevc25-20260929-v1/media/generated/hf_public__happy__case_157/worldsonus.mp4",
+              "fallback_url": "https://soundreactor-wbench-public-728750562872-20260920.s3.us-east-2.amazonaws.com/demo-v1/h264720p25-20260929-v1/media/generated/hf_public__happy__case_157/worldsonus.mp4",
+              "mel": {
+                "url": "./assets/mel/generated-hf_public__happy__case_157-worldsonus.png",
+                "fps": 50,
+                "duration": 12.010666666666667,
+                "frames": 601
+              }
+            }
+          ],
+          "source_model": "Happy Oyster",
+          "fallback_resolution": "1280×712"
+        },
+        {
+          "id": "local_reproductions__echo_wm_flash__case_070",
+          "section": "generated",
+          "title": "Case 07",
+          "kicker": "",
+          "duration_sec": 16,
+          "resolution": "1280×704",
+          "note": "",
+          "prompt_label": "Video prompt",
+          "prompts": [
+            {
+              "start_sec": 0,
+              "caption": "A narrow urban alley at dusk with tall brick walls covered in graffiti on both sides, a dead-end wall ahead, dumpsters and scattered litter on the wet concrete ground, a dim orange streetlight overhead, fire escapes on the building walls, and a moody foggy atmosphere. Behind the viewer, the alley widens toward a cross street with passing car headlights and a convenience store with a lit sign. To the left, a narrow side passage branches off with flickering neon signs from a bar entrance, a metal staircase leading to upper floors, and steam venting from a kitchen exhaust duct. First-person view at eye level, looking toward the dead end of the narrow alley."
+            }
+          ],
+          "poster": "./assets/posters/generated-local_reproductions__echo_wm_flash__case_070-frame0.jpg",
+          "videos": [
+            {
+              "id": "worldsonus",
+              "label": "WorldSonus",
+              "url": "https://soundreactor-wbench-public-728750562872-20260920.s3.us-east-2.amazonaws.com/demo-v1/hevc25-20260929-v1/media/generated/local_reproductions__echo_wm_flash__case_070/worldsonus.mp4",
+              "fallback_url": "https://soundreactor-wbench-public-728750562872-20260920.s3.us-east-2.amazonaws.com/demo-v1/h264720p25-20260929-v1/media/generated/local_reproductions__echo_wm_flash__case_070/worldsonus.mp4",
+              "mel": {
+                "url": "./assets/mel/generated-local_reproductions__echo_wm_flash__case_070-worldsonus.png",
+                "fps": 50,
+                "duration": 16,
+                "frames": 800
+              }
+            }
+          ],
+          "source_model": "JoyAI-Echo-1.5 (WM) — Flash Preview",
+          "fallback_resolution": "1280×704"
+        },
+        {
+          "id": "hf_public__ltx2.3__case_108",
+          "section": "generated",
+          "title": "Case 08",
+          "kicker": "",
+          "duration_sec": 11,
+          "resolution": "1536×1024",
+          "note": "",
+          "prompt_label": "Video prompt",
+          "prompts": [
+            {
+              "start_sec": 0,
+              "caption": "A Provencal lavender field at golden hour. Vibrant rows of purple lavender bushes stretch into the distance. A stone farmhouse with cypress trees stands on the left. Rolling lavender-covered hills and a warm sunset sky in the background. Oil painting style with visible brushstrokes and warm golden light. Off-screen ahead: a wooden gate and a gravel path leading to a rustic stone well with a wrought-iron wheel. Off-screen behind: a lavender distillery shed with stacked wooden crates and bundles of dried lavender hanging from the eaves. A young woman in a flowing white linen dress and a straw sun hat, seen from behind walking through the lavender rows. Third-person perspective, rear view, medium shot following the woman who is at horizontal center of the frame."
+            }
+          ],
+          "poster": "./assets/posters/generated-hf_public__ltx2.3__case_108-frame0.jpg",
+          "videos": [
+            {
+              "id": "worldsonus",
+              "label": "WorldSonus",
+              "url": "https://soundreactor-wbench-public-728750562872-20260920.s3.us-east-2.amazonaws.com/demo-v1/hevc25-20260929-v1/media/generated/hf_public__ltx2.3__case_108/worldsonus.mp4",
+              "fallback_url": "https://soundreactor-wbench-public-728750562872-20260920.s3.us-east-2.amazonaws.com/demo-v1/h264720p25-20260929-v1/media/generated/hf_public__ltx2.3__case_108/worldsonus.mp4",
+              "mel": {
+                "url": "./assets/mel/generated-hf_public__ltx2.3__case_108-worldsonus.png",
+                "fps": 50,
+                "duration": 11.008,
+                "frames": 551
+              }
+            }
+          ],
+          "source_model": "LTX-2.3",
+          "fallback_resolution": "1080×720"
+        },
+        {
+          "id": "hf_public__ltx2.3__case_115",
+          "section": "generated",
+          "title": "Case 09",
+          "kicker": "",
+          "duration_sec": 16,
+          "resolution": "1536×1024",
+          "note": "",
+          "prompt_label": "Video prompt",
+          "prompts": [
+            {
+              "start_sec": 0,
+              "caption": "A Scottish highland meadow with green grass and purple heather. A stacked stone cairn on the left. Rolling heather-covered hills in the background. Dramatic overcast sky with occasional breaks of light. Oil painting style with moody atmospheric tones and visible brushwork. Off-screen ahead: a shallow stream with mossy stepping stones and a weathered wooden footbridge. Off-screen to the left (behind the cairn): a crumbling dry-stone wall with a sheep gate and a lone gnarled oak tree. Off-screen behind: a dirt track leading to a whitewashed crofter's cottage with a smoking chimney. Off-screen to the right: a small loch reflecting the overcast sky, with reeds along the shore. A highland cow with long shaggy brown fur and curved horns, grazing on the meadow grass. Viewed from the side. Walks with a slow, heavy plodding gait. Third-person perspective, side view, medium shot with the highland cow at horizontal center of the frame."
+            }
+          ],
+          "poster": "./assets/posters/generated-hf_public__ltx2.3__case_115-frame0.jpg",
+          "videos": [
+            {
+              "id": "worldsonus",
+              "label": "WorldSonus",
+              "url": "https://soundreactor-wbench-public-728750562872-20260920.s3.us-east-2.amazonaws.com/demo-v1/hevc25-20260929-v1/media/generated/hf_public__ltx2.3__case_115/worldsonus.mp4",
+              "fallback_url": "https://soundreactor-wbench-public-728750562872-20260920.s3.us-east-2.amazonaws.com/demo-v1/h264720p25-20260929-v1/media/generated/hf_public__ltx2.3__case_115/worldsonus.mp4",
+              "mel": {
+                "url": "./assets/mel/generated-hf_public__ltx2.3__case_115-worldsonus.png",
+                "fps": 50,
+                "duration": 16,
+                "frames": 800
+              }
+            }
+          ],
+          "source_model": "LTX-2.3",
+          "fallback_resolution": "1080×720"
+        },
+        {
+          "id": "local_reproductions__lingbot_v2__case_074",
+          "section": "generated",
+          "title": "Case 10",
+          "kicker": "",
+          "duration_sec": 10,
+          "resolution": "832×464",
+          "note": "",
+          "prompt_label": "Video prompt",
+          "prompts": [
+            {
+              "start_sec": 0,
+              "caption": "A dim military base corridor with concrete block walls painted olive-green. Metal doors labeled 'RESTRICTED ACCESS' line both sides. Overhead fluorescent lights cast harsh yellowish light, leaving deep shadows. The corridor extends straight ahead into darkness. Scuffed linoleum flooring. Further ahead, the corridor opens into a guard checkpoint with sandbags and a metal turnstile. Military supply crates are stacked against the far walls, and another corridor branches off to the right near a fire exit sign. First-person view with an M4-style assault rifle held in gloved hands, barrel pointing forward down the corridor."
+            }
+          ],
+          "poster": "./assets/posters/generated-local_reproductions__lingbot_v2__case_074-frame0.jpg",
+          "videos": [
+            {
+              "id": "worldsonus",
+              "label": "WorldSonus",
+              "url": "https://soundreactor-wbench-public-728750562872-20260920.s3.us-east-2.amazonaws.com/demo-v1/hevc25-20260929-v1/media/generated/local_reproductions__lingbot_v2__case_074/worldsonus.mp4",
+              "fallback_url": "https://soundreactor-wbench-public-728750562872-20260920.s3.us-east-2.amazonaws.com/demo-v1/h264720p25-20260929-v1/media/generated/local_reproductions__lingbot_v2__case_074/worldsonus.mp4",
+              "mel": {
+                "url": "./assets/mel/generated-local_reproductions__lingbot_v2__case_074-worldsonus.png",
+                "fps": 50,
+                "duration": 9.834666666666667,
+                "frames": 492
+              }
+            }
+          ],
+          "source_model": "LingBot-World v2 — 14B Causal Fast",
+          "fallback_resolution": "832×464"
+        },
+        {
+          "id": "hf_public__ltx2.3__case_032",
+          "section": "generated",
+          "title": "Case 11",
+          "kicker": "",
+          "duration_sec": 14,
+          "resolution": "1536×1024",
+          "note": "",
+          "prompt_label": "Video prompt",
+          "prompts": [
+            {
+              "start_sec": 0,
+              "caption": "A dirt path running between parallel rows of lush green grapevines in a Tuscan vineyard. The vines are trained on wire trellises supported by wooden posts. Rolling green hills with more vineyards, scattered cypress trees, and a distant farmhouse fill the background. Warm golden afternoon sunlight bathes the scene. The soil is sandy brown and well-trodden. To the right at the end of the vine row, a weathered stone pillar marks the corner of the vineyard block. Behind the starting viewpoint, an old wooden harvest cart with iron-rimmed wheels rests beside a stack of empty grape crates. A stone well with a wrought-iron arch frame stands at the intersection of two vineyard paths to the left. A middle-aged man in a white linen shirt with rolled-up sleeves and olive or dark trousers. He walks forward along the vineyard path, seen from behind. Third-person view from behind and slightly above the man, following him as the central subject walking between the vineyard rows."
+            }
+          ],
+          "poster": "./assets/posters/generated-hf_public__ltx2.3__case_032-frame0.jpg",
+          "videos": [
+            {
+              "id": "worldsonus",
+              "label": "WorldSonus",
+              "url": "https://soundreactor-wbench-public-728750562872-20260920.s3.us-east-2.amazonaws.com/demo-v1/hevc25-20260929-v1/media/generated/hf_public__ltx2.3__case_032/worldsonus.mp4",
+              "fallback_url": "https://soundreactor-wbench-public-728750562872-20260920.s3.us-east-2.amazonaws.com/demo-v1/h264720p25-20260929-v1/media/generated/hf_public__ltx2.3__case_032/worldsonus.mp4",
+              "mel": {
+                "url": "./assets/mel/generated-hf_public__ltx2.3__case_032-worldsonus.png",
+                "fps": 50,
+                "duration": 14.016,
+                "frames": 701
+              }
+            }
+          ],
+          "source_model": "LTX-2.3",
+          "fallback_resolution": "1080×720"
+        },
+        {
+          "id": "hf_public__ltx2.3__case_071",
+          "section": "generated",
+          "title": "Case 12",
+          "kicker": "",
+          "duration_sec": 16,
+          "resolution": "1536×1024",
+          "note": "",
+          "prompt_label": "Video prompt",
+          "prompts": [
+            {
+              "start_sec": 0,
+              "caption": "A high-rise apartment balcony at sunset overlooking a sprawling modern city skyline with glass skyscrapers reflecting golden light, a river winding through the urban landscape, an orange and purple sunset sky, and a potted plant on the balcony floor beside the sleek metal railing. Beyond the current view to the right, neighboring high-rise towers with lit windows stand close by, and a rooftop swimming pool on a lower building is visible below. Behind the viewer through the sliding glass door, a modern living room with a grey sectional sofa, a floor lamp, and a wall-mounted television is dimly lit by warm interior light. First-person view at eye level from the balcony, looking out over the city skyline with the metal railing in the foreground."
+            }
+          ],
+          "poster": "./assets/posters/generated-hf_public__ltx2.3__case_071-frame0.jpg",
+          "videos": [
+            {
+              "id": "worldsonus",
+              "label": "WorldSonus",
+              "url": "https://soundreactor-wbench-public-728750562872-20260920.s3.us-east-2.amazonaws.com/demo-v1/hevc25-20260929-v1/media/generated/hf_public__ltx2.3__case_071/worldsonus.mp4",
+              "fallback_url": "https://soundreactor-wbench-public-728750562872-20260920.s3.us-east-2.amazonaws.com/demo-v1/h264720p25-20260929-v1/media/generated/hf_public__ltx2.3__case_071/worldsonus.mp4",
+              "mel": {
+                "url": "./assets/mel/generated-hf_public__ltx2.3__case_071-worldsonus.png",
+                "fps": 50,
+                "duration": 16,
+                "frames": 800
+              }
+            }
+          ],
+          "source_model": "LTX-2.3",
+          "fallback_resolution": "1080×720"
+        },
+        {
+          "id": "hf_public__wan__case_155",
+          "section": "generated",
+          "title": "Case 13",
+          "kicker": "",
+          "duration_sec": 8,
+          "resolution": "1926×1076",
+          "note": "",
+          "prompt_label": "Video prompt",
+          "prompts": [
+            {
+              "start_sec": 0,
+              "caption": "A rainy urban street at dusk or evening. The wet asphalt reflects warm streetlights and glowing neon signs from storefronts along both sides. Shallow puddles and muddy patches line the road surface and curb edges. Rain falls steadily, creating ripples on the water. Blurred building silhouettes, traffic lights showing red, and lamp posts frame the scene under overcast, moody lighting with a cinematic bokeh effect in the background. To the right, a narrow side alley branches off between two buildings with overflowing drain gutters. Ahead, the street continues past a crosswalk and additional storefronts with awnings, where more puddles and patches of soft mud accumulate near the curb. A dark-colored closed and folded umbrella standing upside-down on the wet road surface, with its pointed handle tip resting on the ground and the tightly furled canopy pointing upward. Initially stationary, balanced upright on handle tip. Third-person tracking shot at low ground level, centered on the umbrella. The camera follows from behind and slightly above, keeping the umbrella in sharp focus in the center of the frame while the street recedes into a blurred background."
+            }
+          ],
+          "poster": "./assets/posters/generated-hf_public__wan__case_155-frame0.jpg",
+          "videos": [
+            {
+              "id": "worldsonus",
+              "label": "WorldSonus",
+              "url": "https://soundreactor-wbench-public-728750562872-20260920.s3.us-east-2.amazonaws.com/demo-v1/hevc25-20260929-v1/media/generated/hf_public__wan__case_155/worldsonus.mp4",
+              "fallback_url": "https://soundreactor-wbench-public-728750562872-20260920.s3.us-east-2.amazonaws.com/demo-v1/h264720p25-20260929-v1/media/generated/hf_public__wan__case_155/worldsonus.mp4",
+              "mel": {
+                "url": "./assets/mel/generated-hf_public__wan__case_155-worldsonus.png",
+                "fps": 50,
+                "duration": 8,
+                "frames": 400
+              }
+            }
+          ],
+          "source_model": "Wan 2.7",
+          "fallback_resolution": "1280×716"
+        },
+        {
+          "id": "hf_public__happy__case_144",
+          "section": "generated",
+          "title": "Case 14",
+          "kicker": "",
+          "duration_sec": 12,
+          "resolution": "1296×720",
+          "note": "",
+          "prompt_label": "Video prompt",
+          "prompts": [
+            {
+              "start_sec": 0,
+              "caption": "A realistic indoor basketball court under even indoor lighting. Polished hardwood floor with clean court markings. Multiple players in two team uniforms (red and blue) moving across the court. Hoop and backboard visible at the far end. Gymnasium walls and equipment in the background. Active in-progress game atmosphere. Behind the far backboard, a shot clock and scorer's table with a digital display are mounted on the wall. To the left, the team bench with players and a coach holding a clipboard is visible courtside. The opposite hoop and backboard are behind the current camera position at the other end of the court. A basketball player wearing a red number 12 uniform, centered on the polished hardwood court. The player moves across the court while continuously dribbling the basketball, with the ball bouncing rhythmically between hand and floor. Third-person perspective. The camera is locked behind and slightly above the tracked player (number 12 in red), following their movement across the court in a game-style follow view."
+            }
+          ],
+          "poster": "./assets/posters/generated-hf_public__happy__case_144-frame0.jpg",
+          "videos": [
+            {
+              "id": "worldsonus",
+              "label": "WorldSonus",
+              "url": "https://soundreactor-wbench-public-728750562872-20260920.s3.us-east-2.amazonaws.com/demo-v1/hevc25-20260929-v1/media/generated/hf_public__happy__case_144/worldsonus.mp4",
+              "fallback_url": "https://soundreactor-wbench-public-728750562872-20260920.s3.us-east-2.amazonaws.com/demo-v1/h264720p25-20260929-v1/media/generated/hf_public__happy__case_144/worldsonus.mp4",
+              "mel": {
+                "url": "./assets/mel/generated-hf_public__happy__case_144-worldsonus.png",
+                "fps": 50,
+                "duration": 12.010666666666667,
+                "frames": 601
+              }
+            }
+          ],
+          "source_model": "Happy Oyster",
+          "fallback_resolution": "1280×712"
+        },
+        {
+          "id": "hf_public__hyvideo1.5__case_034",
+          "section": "generated",
+          "title": "Case 15",
+          "kicker": "",
+          "duration_sec": 16,
+          "resolution": "848×480",
+          "note": "",
+          "prompt_label": "Video prompt",
+          "prompts": [
+            {
+              "start_sec": 0,
+              "caption": "A vast open desert at night. A crackling campfire burns in a ring of dark stones on the sandy ground, casting warm orange light on the surrounding sand. Dark sand dunes are silhouetted against a deep blue-black sky with scattered stars. The atmosphere is quiet and expansive, with warm firelight contrasting against the cool dark sky. Directly overhead, the Milky Way stretches in a luminous band across the sky, dense with stars and faint nebulae. Constellations are clearly visible in the unpolluted desert sky. A canvas camping tent and a folded sleeping bag sit on the sand just beyond the firelight ring to the right. First-person view at eye level, sitting beside the campfire with a lit cigarette extending from the bottom of the frame toward the fire."
+            }
+          ],
+          "poster": "./assets/posters/generated-hf_public__hyvideo1.5__case_034-frame0.jpg",
+          "videos": [
+            {
+              "id": "worldsonus",
+              "label": "WorldSonus",
+              "url": "https://soundreactor-wbench-public-728750562872-20260920.s3.us-east-2.amazonaws.com/demo-v1/hevc25-20260929-v1/media/generated/hf_public__hyvideo1.5__case_034/worldsonus.mp4",
+              "fallback_url": "https://soundreactor-wbench-public-728750562872-20260920.s3.us-east-2.amazonaws.com/demo-v1/h264720p25-20260929-v1/media/generated/hf_public__hyvideo1.5__case_034/worldsonus.mp4",
+              "mel": {
+                "url": "./assets/mel/generated-hf_public__hyvideo1.5__case_034-worldsonus.png",
+                "fps": 50,
+                "duration": 16,
+                "frames": 800
+              }
+            }
+          ],
+          "source_model": "HunyuanVideo-1.5",
+          "fallback_resolution": "848×480"
+        }
+      ]
+    },
+    {
+      "id": "benchmark",
+      "label": "10s comparisons",
+      "short_label": "10s",
+      "description": "High-resolution comparisons against AudioX, ThinkSound, PrismAudio, and ground truth.",
+      "cases": [
+        {
+          "id": "case_0000",
+          "section": "benchmark",
+          "title": "Case 16",
+          "kicker": "",
+          "duration_sec": 10,
+          "resolution": "1920×1080",
+          "note": "",
+          "prompt_label": "Audio prompts",
+          "prompts": [
+            {
+              "start_sec": 0,
+              "caption": "The rhythmic, crunching sound of footsteps on a gravel path is heard from the midground, accompanying a person who is walking away from the camera."
+            },
+            {
+              "start_sec": 5,
+              "caption": "A person is running on a stone path, their footsteps creating a rhythmic thudding sound that grows louder as they approach. The sound is prominent in the foreground, suggesting the runner is moving toward the listener."
+            }
+          ],
+          "poster": "./assets/posters/benchmark-case_0000-frame0.jpg",
+          "videos": [
+            {
+              "id": "worldsonus",
+              "label": "WorldSonus",
+              "url": "https://soundreactor-wbench-public-728750562872-20260920.s3.us-east-2.amazonaws.com/demo-v1/hevc25-20260929-v1/media/benchmark/case_0000/worldsonus.mp4",
+              "fallback_url": "https://soundreactor-wbench-public-728750562872-20260920.s3.us-east-2.amazonaws.com/demo-v1/h264720p25-20260929-v1/media/benchmark/case_0000/worldsonus.mp4",
+              "mel": {
+                "url": "./assets/mel/benchmark-case_0000-worldsonus.png",
+                "fps": 50,
+                "duration": 10.005333333333333,
+                "frames": 501
+              }
+            },
+            {
+              "id": "audiox",
+              "label": "AudioX",
+              "url": "https://soundreactor-wbench-public-728750562872-20260920.s3.us-east-2.amazonaws.com/demo-v1/hevc25-20260929-v1/media/benchmark/case_0000/audiox.mp4",
+              "fallback_url": "https://soundreactor-wbench-public-728750562872-20260920.s3.us-east-2.amazonaws.com/demo-v1/h264720p25-20260929-v1/media/benchmark/case_0000/audiox.mp4",
+              "mel": {
+                "url": "./assets/mel/benchmark-case_0000-audiox.png",
+                "fps": 50,
+                "duration": 10.005333333333333,
+                "frames": 501
+              }
+            },
+            {
+              "id": "thinksound",
+              "label": "ThinkSound",
+              "url": "https://soundreactor-wbench-public-728750562872-20260920.s3.us-east-2.amazonaws.com/demo-v1/hevc25-20260929-v1/media/benchmark/case_0000/thinksound.mp4",
+              "fallback_url": "https://soundreactor-wbench-public-728750562872-20260920.s3.us-east-2.amazonaws.com/demo-v1/h264720p25-20260929-v1/media/benchmark/case_0000/thinksound.mp4",
+              "mel": {
+                "url": "./assets/mel/benchmark-case_0000-thinksound.png",
+                "fps": 50,
+                "duration": 10.005333333333333,
+                "frames": 501
+              }
+            },
+            {
+              "id": "prismaudio",
+              "label": "PrismAudio",
+              "url": "https://soundreactor-wbench-public-728750562872-20260920.s3.us-east-2.amazonaws.com/demo-v1/hevc25-20260929-v1/media/benchmark/case_0000/prismaudio.mp4",
+              "fallback_url": "https://soundreactor-wbench-public-728750562872-20260920.s3.us-east-2.amazonaws.com/demo-v1/h264720p25-20260929-v1/media/benchmark/case_0000/prismaudio.mp4",
+              "mel": {
+                "url": "./assets/mel/benchmark-case_0000-prismaudio.png",
+                "fps": 50,
+                "duration": 10.005333333333333,
+                "frames": 501
+              }
+            },
+            {
+              "id": "ground_truth",
+              "label": "Ground truth",
+              "url": "https://soundreactor-wbench-public-728750562872-20260920.s3.us-east-2.amazonaws.com/demo-v1/hevc25-20260929-v1/media/benchmark/case_0000/ground_truth.mp4",
+              "fallback_url": "https://soundreactor-wbench-public-728750562872-20260920.s3.us-east-2.amazonaws.com/demo-v1/h264720p25-20260929-v1/media/benchmark/case_0000/ground_truth.mp4",
+              "mel": {
+                "url": "./assets/mel/benchmark-case_0000-ground_truth.png",
+                "fps": 50,
+                "duration": 10.005333333333333,
+                "frames": 501
+              }
+            }
+          ],
+          "fallback_resolution": "1280×720"
+        },
+        {
+          "id": "case_0002",
+          "section": "benchmark",
+          "title": "Case 17",
+          "kicker": "",
+          "duration_sec": 10,
+          "resolution": "1920×1080",
+          "note": "",
+          "prompt_label": "Audio prompts",
+          "prompts": [
+            {
+              "start_sec": 0,
+              "caption": "A dark-colored car drives past from left to right, its engine and tires producing a prominent, low-pitched rumble that fades as it moves away. This sound is layered over a constant, high-frequency electronic hum that persists in the background throughout the clip."
+            },
+            {
+              "start_sec": 5,
+              "caption": "The low, continuous hum of a city at night forms the background, filled with the distant, indistinct murmur of traffic. A loud, high-pitched electronic beep, characteristic of a vehicle's reversing alarm, begins and continues steadily. This sound is clearly coming from a vehicle in the midground, positioned to the left of the frame, which is simultaneously moving forward along the road."
+            }
+          ],
+          "poster": "./assets/posters/benchmark-case_0002-frame0.jpg",
+          "videos": [
+            {
+              "id": "worldsonus",
+              "label": "WorldSonus",
+              "url": "https://soundreactor-wbench-public-728750562872-20260920.s3.us-east-2.amazonaws.com/demo-v1/hevc25-20260929-v1/media/benchmark/case_0002/worldsonus.mp4",
+              "fallback_url": "https://soundreactor-wbench-public-728750562872-20260920.s3.us-east-2.amazonaws.com/demo-v1/h264720p25-20260929-v1/media/benchmark/case_0002/worldsonus.mp4",
+              "mel": {
+                "url": "./assets/mel/benchmark-case_0002-worldsonus.png",
+                "fps": 50,
+                "duration": 10.005333333333333,
+                "frames": 501
+              }
+            },
+            {
+              "id": "audiox",
+              "label": "AudioX",
+              "url": "https://soundreactor-wbench-public-728750562872-20260920.s3.us-east-2.amazonaws.com/demo-v1/hevc25-20260929-v1/media/benchmark/case_0002/audiox.mp4",
+              "fallback_url": "https://soundreactor-wbench-public-728750562872-20260920.s3.us-east-2.amazonaws.com/demo-v1/h264720p25-20260929-v1/media/benchmark/case_0002/audiox.mp4",
+              "mel": {
+                "url": "./assets/mel/benchmark-case_0002-audiox.png",
+                "fps": 50,
+                "duration": 10.005333333333333,
+                "frames": 501
+              }
+            },
+            {
+              "id": "thinksound",
+              "label": "ThinkSound",
+              "url": "https://soundreactor-wbench-public-728750562872-20260920.s3.us-east-2.amazonaws.com/demo-v1/hevc25-20260929-v1/media/benchmark/case_0002/thinksound.mp4",
+              "fallback_url": "https://soundreactor-wbench-public-728750562872-20260920.s3.us-east-2.amazonaws.com/demo-v1/h264720p25-20260929-v1/media/benchmark/case_0002/thinksound.mp4",
+              "mel": {
+                "url": "./assets/mel/benchmark-case_0002-thinksound.png",
+                "fps": 50,
+                "duration": 10.005333333333333,
+                "frames": 501
+              }
+            },
+            {
+              "id": "prismaudio",
+              "label": "PrismAudio",
+              "url": "https://soundreactor-wbench-public-728750562872-20260920.s3.us-east-2.amazonaws.com/demo-v1/hevc25-20260929-v1/media/benchmark/case_0002/prismaudio.mp4",
+              "fallback_url": "https://soundreactor-wbench-public-728750562872-20260920.s3.us-east-2.amazonaws.com/demo-v1/h264720p25-20260929-v1/media/benchmark/case_0002/prismaudio.mp4",
+              "mel": {
+                "url": "./assets/mel/benchmark-case_0002-prismaudio.png",
+                "fps": 50,
+                "duration": 10.005333333333333,
+                "frames": 501
+              }
+            },
+            {
+              "id": "ground_truth",
+              "label": "Ground truth",
+              "url": "https://soundreactor-wbench-public-728750562872-20260920.s3.us-east-2.amazonaws.com/demo-v1/hevc25-20260929-v1/media/benchmark/case_0002/ground_truth.mp4",
+              "fallback_url": "https://soundreactor-wbench-public-728750562872-20260920.s3.us-east-2.amazonaws.com/demo-v1/h264720p25-20260929-v1/media/benchmark/case_0002/ground_truth.mp4",
+              "mel": {
+                "url": "./assets/mel/benchmark-case_0002-ground_truth.png",
+                "fps": 50,
+                "duration": 10.005333333333333,
+                "frames": 501
+              }
+            }
+          ],
+          "fallback_resolution": "1280×720"
+        },
+        {
+          "id": "case_0003",
+          "section": "benchmark",
+          "title": "Case 18",
+          "kicker": "",
+          "duration_sec": 10,
+          "resolution": "1920×1080",
+          "note": "",
+          "prompt_label": "Audio prompts",
+          "prompts": [
+            {
+              "start_sec": 0,
+              "caption": "A person is walking on a gravel path, and their footsteps are clearly audible. The sound of their footsteps is consistent and rhythmic, indicating a steady pace. The footsteps are coming from the midground, suggesting the person is walking ahead of the camera."
+            },
+            {
+              "start_sec": 5,
+              "caption": "The rhythmic crunch of footsteps on a gravel path is heard as a person walks forward, the sound prominent in the foreground. In the background, a low, continuous hum, possibly from distant machinery or an engine, provides a steady ambient layer."
+            }
+          ],
+          "poster": "./assets/posters/benchmark-case_0003-frame0.jpg",
+          "videos": [
+            {
+              "id": "worldsonus",
+              "label": "WorldSonus",
+              "url": "https://soundreactor-wbench-public-728750562872-20260920.s3.us-east-2.amazonaws.com/demo-v1/hevc25-20260929-v1/media/benchmark/case_0003/worldsonus.mp4",
+              "fallback_url": "https://soundreactor-wbench-public-728750562872-20260920.s3.us-east-2.amazonaws.com/demo-v1/h264720p25-20260929-v1/media/benchmark/case_0003/worldsonus.mp4",
+              "mel": {
+                "url": "./assets/mel/benchmark-case_0003-worldsonus.png",
+                "fps": 50,
+                "duration": 10.005333333333333,
+                "frames": 501
+              }
+            },
+            {
+              "id": "audiox",
+              "label": "AudioX",
+              "url": "https://soundreactor-wbench-public-728750562872-20260920.s3.us-east-2.amazonaws.com/demo-v1/hevc25-20260929-v1/media/benchmark/case_0003/audiox.mp4",
+              "fallback_url": "https://soundreactor-wbench-public-728750562872-20260920.s3.us-east-2.amazonaws.com/demo-v1/h264720p25-20260929-v1/media/benchmark/case_0003/audiox.mp4",
+              "mel": {
+                "url": "./assets/mel/benchmark-case_0003-audiox.png",
+                "fps": 50,
+                "duration": 10.005333333333333,
+                "frames": 501
+              }
+            },
+            {
+              "id": "thinksound",
+              "label": "ThinkSound",
+              "url": "https://soundreactor-wbench-public-728750562872-20260920.s3.us-east-2.amazonaws.com/demo-v1/hevc25-20260929-v1/media/benchmark/case_0003/thinksound.mp4",
+              "fallback_url": "https://soundreactor-wbench-public-728750562872-20260920.s3.us-east-2.amazonaws.com/demo-v1/h264720p25-20260929-v1/media/benchmark/case_0003/thinksound.mp4",
+              "mel": {
+                "url": "./assets/mel/benchmark-case_0003-thinksound.png",
+                "fps": 50,
+                "duration": 10.005333333333333,
+                "frames": 501
+              }
+            },
+            {
+              "id": "prismaudio",
+              "label": "PrismAudio",
+              "url": "https://soundreactor-wbench-public-728750562872-20260920.s3.us-east-2.amazonaws.com/demo-v1/hevc25-20260929-v1/media/benchmark/case_0003/prismaudio.mp4",
+              "fallback_url": "https://soundreactor-wbench-public-728750562872-20260920.s3.us-east-2.amazonaws.com/demo-v1/h264720p25-20260929-v1/media/benchmark/case_0003/prismaudio.mp4",
+              "mel": {
+                "url": "./assets/mel/benchmark-case_0003-prismaudio.png",
+                "fps": 50,
+                "duration": 10.005333333333333,
+                "frames": 501
+              }
+            },
+            {
+              "id": "ground_truth",
+              "label": "Ground truth",
+              "url": "https://soundreactor-wbench-public-728750562872-20260920.s3.us-east-2.amazonaws.com/demo-v1/hevc25-20260929-v1/media/benchmark/case_0003/ground_truth.mp4",
+              "fallback_url": "https://soundreactor-wbench-public-728750562872-20260920.s3.us-east-2.amazonaws.com/demo-v1/h264720p25-20260929-v1/media/benchmark/case_0003/ground_truth.mp4",
+              "mel": {
+                "url": "./assets/mel/benchmark-case_0003-ground_truth.png",
+                "fps": 50,
+                "duration": 10.005333333333333,
+                "frames": 501
+              }
+            }
+          ],
+          "fallback_resolution": "1280×720"
+        },
+        {
+          "id": "case_0006",
+          "section": "benchmark",
+          "title": "Case 19",
+          "kicker": "",
+          "duration_sec": 10,
+          "resolution": "1920×1080",
+          "note": "",
+          "prompt_label": "Audio prompts",
+          "prompts": [
+            {
+              "start_sec": 0,
+              "caption": "A person walks up a sandy path, their footsteps crunching on the loose surface. The sound of their movement is steady and prominent, originating from the midground and following them as they progress."
+            },
+            {
+              "start_sec": 5,
+              "caption": "A person is walking on a dirt path, their footsteps creating a steady crunching and shuffling sound on the loose surface. The sound is consistent and originates from the midground, suggesting the person is walking away from the camera."
+            }
+          ],
+          "poster": "./assets/posters/benchmark-case_0006-frame0.jpg",
+          "videos": [
+            {
+              "id": "worldsonus",
+              "label": "WorldSonus",
+              "url": "https://soundreactor-wbench-public-728750562872-20260920.s3.us-east-2.amazonaws.com/demo-v1/hevc25-20260929-v1/media/benchmark/case_0006/worldsonus.mp4",
+              "fallback_url": "https://soundreactor-wbench-public-728750562872-20260920.s3.us-east-2.amazonaws.com/demo-v1/h264720p25-20260929-v1/media/benchmark/case_0006/worldsonus.mp4",
+              "mel": {
+                "url": "./assets/mel/benchmark-case_0006-worldsonus.png",
+                "fps": 50,
+                "duration": 10.005333333333333,
+                "frames": 501
+              }
+            },
+            {
+              "id": "audiox",
+              "label": "AudioX",
+              "url": "https://soundreactor-wbench-public-728750562872-20260920.s3.us-east-2.amazonaws.com/demo-v1/hevc25-20260929-v1/media/benchmark/case_0006/audiox.mp4",
+              "fallback_url": "https://soundreactor-wbench-public-728750562872-20260920.s3.us-east-2.amazonaws.com/demo-v1/h264720p25-20260929-v1/media/benchmark/case_0006/audiox.mp4",
+              "mel": {
+                "url": "./assets/mel/benchmark-case_0006-audiox.png",
+                "fps": 50,
+                "duration": 10.005333333333333,
+                "frames": 501
+              }
+            },
+            {
+              "id": "thinksound",
+              "label": "ThinkSound",
+              "url": "https://soundreactor-wbench-public-728750562872-20260920.s3.us-east-2.amazonaws.com/demo-v1/hevc25-20260929-v1/media/benchmark/case_0006/thinksound.mp4",
+              "fallback_url": "https://soundreactor-wbench-public-728750562872-20260920.s3.us-east-2.amazonaws.com/demo-v1/h264720p25-20260929-v1/media/benchmark/case_0006/thinksound.mp4",
+              "mel": {
+                "url": "./assets/mel/benchmark-case_0006-thinksound.png",
+                "fps": 50,
+                "duration": 10.005333333333333,
+                "frames": 501
+              }
+            },
+            {
+              "id": "prismaudio",
+              "label": "PrismAudio",
+              "url": "https://soundreactor-wbench-public-728750562872-20260920.s3.us-east-2.amazonaws.com/demo-v1/hevc25-20260929-v1/media/benchmark/case_0006/prismaudio.mp4",
+              "fallback_url": "https://soundreactor-wbench-public-728750562872-20260920.s3.us-east-2.amazonaws.com/demo-v1/h264720p25-20260929-v1/media/benchmark/case_0006/prismaudio.mp4",
+              "mel": {
+                "url": "./assets/mel/benchmark-case_0006-prismaudio.png",
+                "fps": 50,
+                "duration": 10.005333333333333,
+                "frames": 501
+              }
+            },
+            {
+              "id": "ground_truth",
+              "label": "Ground truth",
+              "url": "https://soundreactor-wbench-public-728750562872-20260920.s3.us-east-2.amazonaws.com/demo-v1/hevc25-20260929-v1/media/benchmark/case_0006/ground_truth.mp4",
+              "fallback_url": "https://soundreactor-wbench-public-728750562872-20260920.s3.us-east-2.amazonaws.com/demo-v1/h264720p25-20260929-v1/media/benchmark/case_0006/ground_truth.mp4",
+              "mel": {
+                "url": "./assets/mel/benchmark-case_0006-ground_truth.png",
+                "fps": 50,
+                "duration": 10.005333333333333,
+                "frames": 501
+              }
+            }
+          ],
+          "fallback_resolution": "1280×720"
+        },
+        {
+          "id": "case_0007",
+          "section": "benchmark",
+          "title": "Case 20",
+          "kicker": "",
+          "duration_sec": 10,
+          "resolution": "1920×1080",
+          "note": "",
+          "prompt_label": "Audio prompts",
+          "prompts": [
+            {
+              "start_sec": 0,
+              "caption": "The ambient sound of gently lapping water fills the background. In the midground, a person wearing a red coat is wading through the shallow water, creating rhythmic splashing sounds with each step they take."
+            },
+            {
+              "start_sec": 5,
+              "caption": "A continuous, low-frequency gurgling and sloshing sound fills the background, suggesting the movement of water in a confined space. Overlaid on this is a rhythmic, mid-to-high frequency lapping and splashing, clearly produced by the person in the red robe as they walk through the shallow water. This foreground sound is centered and close, corresponding to the person's movement through the water in the midground of the scene."
+            }
+          ],
+          "poster": "./assets/posters/benchmark-case_0007-frame0.jpg",
+          "videos": [
+            {
+              "id": "worldsonus",
+              "label": "WorldSonus",
+              "url": "https://soundreactor-wbench-public-728750562872-20260920.s3.us-east-2.amazonaws.com/demo-v1/hevc25-20260929-v1/media/benchmark/case_0007/worldsonus.mp4",
+              "fallback_url": "https://soundreactor-wbench-public-728750562872-20260920.s3.us-east-2.amazonaws.com/demo-v1/h264720p25-20260929-v1/media/benchmark/case_0007/worldsonus.mp4",
+              "mel": {
+                "url": "./assets/mel/benchmark-case_0007-worldsonus.png",
+                "fps": 50,
+                "duration": 10.005333333333333,
+                "frames": 501
+              }
+            },
+            {
+              "id": "audiox",
+              "label": "AudioX",
+              "url": "https://soundreactor-wbench-public-728750562872-20260920.s3.us-east-2.amazonaws.com/demo-v1/hevc25-20260929-v1/media/benchmark/case_0007/audiox.mp4",
+              "fallback_url": "https://soundreactor-wbench-public-728750562872-20260920.s3.us-east-2.amazonaws.com/demo-v1/h264720p25-20260929-v1/media/benchmark/case_0007/audiox.mp4",
+              "mel": {
+                "url": "./assets/mel/benchmark-case_0007-audiox.png",
+                "fps": 50,
+                "duration": 10.005333333333333,
+                "frames": 501
+              }
+            },
+            {
+              "id": "thinksound",
+              "label": "ThinkSound",
+              "url": "https://soundreactor-wbench-public-728750562872-20260920.s3.us-east-2.amazonaws.com/demo-v1/hevc25-20260929-v1/media/benchmark/case_0007/thinksound.mp4",
+              "fallback_url": "https://soundreactor-wbench-public-728750562872-20260920.s3.us-east-2.amazonaws.com/demo-v1/h264720p25-20260929-v1/media/benchmark/case_0007/thinksound.mp4",
+              "mel": {
+                "url": "./assets/mel/benchmark-case_0007-thinksound.png",
+                "fps": 50,
+                "duration": 10.005333333333333,
+                "frames": 501
+              }
+            },
+            {
+              "id": "prismaudio",
+              "label": "PrismAudio",
+              "url": "https://soundreactor-wbench-public-728750562872-20260920.s3.us-east-2.amazonaws.com/demo-v1/hevc25-20260929-v1/media/benchmark/case_0007/prismaudio.mp4",
+              "fallback_url": "https://soundreactor-wbench-public-728750562872-20260920.s3.us-east-2.amazonaws.com/demo-v1/h264720p25-20260929-v1/media/benchmark/case_0007/prismaudio.mp4",
+              "mel": {
+                "url": "./assets/mel/benchmark-case_0007-prismaudio.png",
+                "fps": 50,
+                "duration": 10.005333333333333,
+                "frames": 501
+              }
+            },
+            {
+              "id": "ground_truth",
+              "label": "Ground truth",
+              "url": "https://soundreactor-wbench-public-728750562872-20260920.s3.us-east-2.amazonaws.com/demo-v1/hevc25-20260929-v1/media/benchmark/case_0007/ground_truth.mp4",
+              "fallback_url": "https://soundreactor-wbench-public-728750562872-20260920.s3.us-east-2.amazonaws.com/demo-v1/h264720p25-20260929-v1/media/benchmark/case_0007/ground_truth.mp4",
+              "mel": {
+                "url": "./assets/mel/benchmark-case_0007-ground_truth.png",
+                "fps": 50,
+                "duration": 10.005333333333333,
+                "frames": 501
+              }
+            }
+          ],
+          "fallback_resolution": "1280×720"
+        },
+        {
+          "id": "case_0008",
+          "section": "benchmark",
+          "title": "Case 21",
+          "kicker": "",
+          "duration_sec": 10,
+          "resolution": "1920×1080",
+          "note": "",
+          "prompt_label": "Audio prompts",
+          "prompts": [
+            {
+              "start_sec": 0,
+              "caption": "The dominant sound is the continuous, rhythmic crashing of ocean waves against the rocky shore. This powerful, low-frequency roar is prominent and consistent, with each wave producing a sharp, splashing impact as it breaks on the rocks in the midground. The sound is centered and fills the acoustic space, creating a sense of immersion in the coastal environment."
+            },
+            {
+              "start_sec": 5,
+              "caption": "The continuous, powerful sound of ocean waves crashing against the shore dominates the audio. This strong, rhythmic surf is the most prominent layer, originating from the midground where the water meets the rocky coastline."
+            }
+          ],
+          "poster": "./assets/posters/benchmark-case_0008-frame0.jpg",
+          "videos": [
+            {
+              "id": "worldsonus",
+              "label": "WorldSonus",
+              "url": "https://soundreactor-wbench-public-728750562872-20260920.s3.us-east-2.amazonaws.com/demo-v1/hevc25-20260929-v1/media/benchmark/case_0008/worldsonus.mp4",
+              "fallback_url": "https://soundreactor-wbench-public-728750562872-20260920.s3.us-east-2.amazonaws.com/demo-v1/h264720p25-20260929-v1/media/benchmark/case_0008/worldsonus.mp4",
+              "mel": {
+                "url": "./assets/mel/benchmark-case_0008-worldsonus.png",
+                "fps": 50,
+                "duration": 10.005333333333333,
+                "frames": 501
+              }
+            },
+            {
+              "id": "audiox",
+              "label": "AudioX",
+              "url": "https://soundreactor-wbench-public-728750562872-20260920.s3.us-east-2.amazonaws.com/demo-v1/hevc25-20260929-v1/media/benchmark/case_0008/audiox.mp4",
+              "fallback_url": "https://soundreactor-wbench-public-728750562872-20260920.s3.us-east-2.amazonaws.com/demo-v1/h264720p25-20260929-v1/media/benchmark/case_0008/audiox.mp4",
+              "mel": {
+                "url": "./assets/mel/benchmark-case_0008-audiox.png",
+                "fps": 50,
+                "duration": 10.005333333333333,
+                "frames": 501
+              }
+            },
+            {
+              "id": "thinksound",
+              "label": "ThinkSound",
+              "url": "https://soundreactor-wbench-public-728750562872-20260920.s3.us-east-2.amazonaws.com/demo-v1/hevc25-20260929-v1/media/benchmark/case_0008/thinksound.mp4",
+              "fallback_url": "https://soundreactor-wbench-public-728750562872-20260920.s3.us-east-2.amazonaws.com/demo-v1/h264720p25-20260929-v1/media/benchmark/case_0008/thinksound.mp4",
+              "mel": {
+                "url": "./assets/mel/benchmark-case_0008-thinksound.png",
+                "fps": 50,
+                "duration": 10.005333333333333,
+                "frames": 501
+              }
+            },
+            {
+              "id": "prismaudio",
+              "label": "PrismAudio",
+              "url": "https://soundreactor-wbench-public-728750562872-20260920.s3.us-east-2.amazonaws.com/demo-v1/hevc25-20260929-v1/media/benchmark/case_0008/prismaudio.mp4",
+              "fallback_url": "https://soundreactor-wbench-public-728750562872-20260920.s3.us-east-2.amazonaws.com/demo-v1/h264720p25-20260929-v1/media/benchmark/case_0008/prismaudio.mp4",
+              "mel": {
+                "url": "./assets/mel/benchmark-case_0008-prismaudio.png",
+                "fps": 50,
+                "duration": 10.005333333333333,
+                "frames": 501
+              }
+            },
+            {
+              "id": "ground_truth",
+              "label": "Ground truth",
+              "url": "https://soundreactor-wbench-public-728750562872-20260920.s3.us-east-2.amazonaws.com/demo-v1/hevc25-20260929-v1/media/benchmark/case_0008/ground_truth.mp4",
+              "fallback_url": "https://soundreactor-wbench-public-728750562872-20260920.s3.us-east-2.amazonaws.com/demo-v1/h264720p25-20260929-v1/media/benchmark/case_0008/ground_truth.mp4",
+              "mel": {
+                "url": "./assets/mel/benchmark-case_0008-ground_truth.png",
+                "fps": 50,
+                "duration": 10.005333333333333,
+                "frames": 501
+              }
+            }
+          ],
+          "fallback_resolution": "1280×720"
+        },
+        {
+          "id": "case_0010",
+          "section": "benchmark",
+          "title": "Case 22",
+          "kicker": "",
+          "duration_sec": 10,
+          "resolution": "1920×1080",
+          "note": "",
+          "prompt_label": "Audio prompts",
+          "prompts": [
+            {
+              "start_sec": 0,
+              "caption": "A person wearing a backpack and camouflage clothing is walking on a snowy, rocky mountainside. Their footsteps are audible, crunching on the snow with each step. The sound is consistent and comes from the midground, suggesting the person is moving away from the camera's position."
+            },
+            {
+              "start_sec": 5,
+              "caption": "The steady crunch of footsteps on snow is heard as a person walks across a snowy mountainside. The footsteps are rhythmic and consistent, suggesting a steady pace, and they originate from the midground on the left side of the scene."
+            }
+          ],
+          "poster": "./assets/posters/benchmark-case_0010-frame0.jpg",
+          "videos": [
+            {
+              "id": "worldsonus",
+              "label": "WorldSonus",
+              "url": "https://soundreactor-wbench-public-728750562872-20260920.s3.us-east-2.amazonaws.com/demo-v1/hevc25-20260929-v1/media/benchmark/case_0010/worldsonus.mp4",
+              "fallback_url": "https://soundreactor-wbench-public-728750562872-20260920.s3.us-east-2.amazonaws.com/demo-v1/h264720p25-20260929-v1/media/benchmark/case_0010/worldsonus.mp4",
+              "mel": {
+                "url": "./assets/mel/benchmark-case_0010-worldsonus.png",
+                "fps": 50,
+                "duration": 10.005333333333333,
+                "frames": 501
+              }
+            },
+            {
+              "id": "audiox",
+              "label": "AudioX",
+              "url": "https://soundreactor-wbench-public-728750562872-20260920.s3.us-east-2.amazonaws.com/demo-v1/hevc25-20260929-v1/media/benchmark/case_0010/audiox.mp4",
+              "fallback_url": "https://soundreactor-wbench-public-728750562872-20260920.s3.us-east-2.amazonaws.com/demo-v1/h264720p25-20260929-v1/media/benchmark/case_0010/audiox.mp4",
+              "mel": {
+                "url": "./assets/mel/benchmark-case_0010-audiox.png",
+                "fps": 50,
+                "duration": 10.005333333333333,
+                "frames": 501
+              }
+            },
+            {
+              "id": "thinksound",
+              "label": "ThinkSound",
+              "url": "https://soundreactor-wbench-public-728750562872-20260920.s3.us-east-2.amazonaws.com/demo-v1/hevc25-20260929-v1/media/benchmark/case_0010/thinksound.mp4",
+              "fallback_url": "https://soundreactor-wbench-public-728750562872-20260920.s3.us-east-2.amazonaws.com/demo-v1/h264720p25-20260929-v1/media/benchmark/case_0010/thinksound.mp4",
+              "mel": {
+                "url": "./assets/mel/benchmark-case_0010-thinksound.png",
+                "fps": 50,
+                "duration": 10.005333333333333,
+                "frames": 501
+              }
+            },
+            {
+              "id": "prismaudio",
+              "label": "PrismAudio",
+              "url": "https://soundreactor-wbench-public-728750562872-20260920.s3.us-east-2.amazonaws.com/demo-v1/hevc25-20260929-v1/media/benchmark/case_0010/prismaudio.mp4",
+              "fallback_url": "https://soundreactor-wbench-public-728750562872-20260920.s3.us-east-2.amazonaws.com/demo-v1/h264720p25-20260929-v1/media/benchmark/case_0010/prismaudio.mp4",
+              "mel": {
+                "url": "./assets/mel/benchmark-case_0010-prismaudio.png",
+                "fps": 50,
+                "duration": 10.005333333333333,
+                "frames": 501
+              }
+            },
+            {
+              "id": "ground_truth",
+              "label": "Ground truth",
+              "url": "https://soundreactor-wbench-public-728750562872-20260920.s3.us-east-2.amazonaws.com/demo-v1/hevc25-20260929-v1/media/benchmark/case_0010/ground_truth.mp4",
+              "fallback_url": "https://soundreactor-wbench-public-728750562872-20260920.s3.us-east-2.amazonaws.com/demo-v1/h264720p25-20260929-v1/media/benchmark/case_0010/ground_truth.mp4",
+              "mel": {
+                "url": "./assets/mel/benchmark-case_0010-ground_truth.png",
+                "fps": 50,
+                "duration": 10.005333333333333,
+                "frames": 501
+              }
+            }
+          ],
+          "fallback_resolution": "1280×720"
+        },
+        {
+          "id": "case_0012",
+          "section": "benchmark",
+          "title": "Case 23",
+          "kicker": "",
+          "duration_sec": 10,
+          "resolution": "1920×1080",
+          "note": "",
+          "prompt_label": "Audio prompts",
+          "prompts": [
+            {
+              "start_sec": 0,
+              "caption": "The ambient hum of a busy city street forms the background, filled with the indistinct murmur of distant traffic and city life. A prominent, loud, and low-pitched engine sound, characteristic of a large vehicle like a bus, grows in volume as it moves from the left side of the scene toward the right, passing through the midground. This vehicle sound then begins to fade as it continues moving away from the listener's position."
+            },
+            {
+              "start_sec": 5,
+              "caption": "The dominant sound is a powerful, low-frequency engine rumble from a large vehicle, likely a truck or bus, that grows louder as it moves from the right side of the scene toward the center and then away to the left. This vehicle sound is layered over a constant, lower-level ambient hum of city traffic, creating a dense urban soundscape. The engine noise is initially in the background, peaks in volume as the vehicle passes through the midground, and then fades as it moves further to the left."
+            }
+          ],
+          "poster": "./assets/posters/benchmark-case_0012-frame0.jpg",
+          "videos": [
+            {
+              "id": "worldsonus",
+              "label": "WorldSonus",
+              "url": "https://soundreactor-wbench-public-728750562872-20260920.s3.us-east-2.amazonaws.com/demo-v1/hevc25-20260929-v1/media/benchmark/case_0012/worldsonus.mp4",
+              "fallback_url": "https://soundreactor-wbench-public-728750562872-20260920.s3.us-east-2.amazonaws.com/demo-v1/h264720p25-20260929-v1/media/benchmark/case_0012/worldsonus.mp4",
+              "mel": {
+                "url": "./assets/mel/benchmark-case_0012-worldsonus.png",
+                "fps": 50,
+                "duration": 10.005333333333333,
+                "frames": 501
+              }
+            },
+            {
+              "id": "audiox",
+              "label": "AudioX",
+              "url": "https://soundreactor-wbench-public-728750562872-20260920.s3.us-east-2.amazonaws.com/demo-v1/hevc25-20260929-v1/media/benchmark/case_0012/audiox.mp4",
+              "fallback_url": "https://soundreactor-wbench-public-728750562872-20260920.s3.us-east-2.amazonaws.com/demo-v1/h264720p25-20260929-v1/media/benchmark/case_0012/audiox.mp4",
+              "mel": {
+                "url": "./assets/mel/benchmark-case_0012-audiox.png",
+                "fps": 50,
+                "duration": 10.005333333333333,
+                "frames": 501
+              }
+            },
+            {
+              "id": "thinksound",
+              "label": "ThinkSound",
+              "url": "https://soundreactor-wbench-public-728750562872-20260920.s3.us-east-2.amazonaws.com/demo-v1/hevc25-20260929-v1/media/benchmark/case_0012/thinksound.mp4",
+              "fallback_url": "https://soundreactor-wbench-public-728750562872-20260920.s3.us-east-2.amazonaws.com/demo-v1/h264720p25-20260929-v1/media/benchmark/case_0012/thinksound.mp4",
+              "mel": {
+                "url": "./assets/mel/benchmark-case_0012-thinksound.png",
+                "fps": 50,
+                "duration": 10.005333333333333,
+                "frames": 501
+              }
+            },
+            {
+              "id": "prismaudio",
+              "label": "PrismAudio",
+              "url": "https://soundreactor-wbench-public-728750562872-20260920.s3.us-east-2.amazonaws.com/demo-v1/hevc25-20260929-v1/media/benchmark/case_0012/prismaudio.mp4",
+              "fallback_url": "https://soundreactor-wbench-public-728750562872-20260920.s3.us-east-2.amazonaws.com/demo-v1/h264720p25-20260929-v1/media/benchmark/case_0012/prismaudio.mp4",
+              "mel": {
+                "url": "./assets/mel/benchmark-case_0012-prismaudio.png",
+                "fps": 50,
+                "duration": 10.005333333333333,
+                "frames": 501
+              }
+            },
+            {
+              "id": "ground_truth",
+              "label": "Ground truth",
+              "url": "https://soundreactor-wbench-public-728750562872-20260920.s3.us-east-2.amazonaws.com/demo-v1/hevc25-20260929-v1/media/benchmark/case_0012/ground_truth.mp4",
+              "fallback_url": "https://soundreactor-wbench-public-728750562872-20260920.s3.us-east-2.amazonaws.com/demo-v1/h264720p25-20260929-v1/media/benchmark/case_0012/ground_truth.mp4",
+              "mel": {
+                "url": "./assets/mel/benchmark-case_0012-ground_truth.png",
+                "fps": 50,
+                "duration": 10.005333333333333,
+                "frames": 501
+              }
+            }
+          ],
+          "fallback_resolution": "1280×720"
+        },
+        {
+          "id": "case_0018",
+          "section": "benchmark",
+          "title": "Case 24",
+          "kicker": "",
+          "duration_sec": 10,
+          "resolution": "1920×1080",
+          "note": "",
+          "prompt_label": "Audio prompts",
+          "prompts": [
+            {
+              "start_sec": 0,
+              "caption": "The rhythmic, steady sound of footsteps on a hard, uneven surface is heard, indicating someone is walking. The footsteps are in the foreground and originate from the left side of the audio field, moving towards the right. This sound is continuous throughout the clip, suggesting a person is walking across a cobblestone surface."
+            },
+            {
+              "start_sec": 5,
+              "caption": "The distinct, rhythmic sound of a person's footsteps on a hard, uneven surface is heard as they walk. The footsteps are clear and close, suggesting the person is moving through the midground of the scene."
+            }
+          ],
+          "poster": "./assets/posters/benchmark-case_0018-frame0.jpg",
+          "videos": [
+            {
+              "id": "worldsonus",
+              "label": "WorldSonus",
+              "url": "https://soundreactor-wbench-public-728750562872-20260920.s3.us-east-2.amazonaws.com/demo-v1/hevc25-20260929-v1/media/benchmark/case_0018/worldsonus.mp4",
+              "fallback_url": "https://soundreactor-wbench-public-728750562872-20260920.s3.us-east-2.amazonaws.com/demo-v1/h264720p25-20260929-v1/media/benchmark/case_0018/worldsonus.mp4",
+              "mel": {
+                "url": "./assets/mel/benchmark-case_0018-worldsonus.png",
+                "fps": 50,
+                "duration": 10.005333333333333,
+                "frames": 501
+              }
+            },
+            {
+              "id": "audiox",
+              "label": "AudioX",
+              "url": "https://soundreactor-wbench-public-728750562872-20260920.s3.us-east-2.amazonaws.com/demo-v1/hevc25-20260929-v1/media/benchmark/case_0018/audiox.mp4",
+              "fallback_url": "https://soundreactor-wbench-public-728750562872-20260920.s3.us-east-2.amazonaws.com/demo-v1/h264720p25-20260929-v1/media/benchmark/case_0018/audiox.mp4",
+              "mel": {
+                "url": "./assets/mel/benchmark-case_0018-audiox.png",
+                "fps": 50,
+                "duration": 10.005333333333333,
+                "frames": 501
+              }
+            },
+            {
+              "id": "thinksound",
+              "label": "ThinkSound",
+              "url": "https://soundreactor-wbench-public-728750562872-20260920.s3.us-east-2.amazonaws.com/demo-v1/hevc25-20260929-v1/media/benchmark/case_0018/thinksound.mp4",
+              "fallback_url": "https://soundreactor-wbench-public-728750562872-20260920.s3.us-east-2.amazonaws.com/demo-v1/h264720p25-20260929-v1/media/benchmark/case_0018/thinksound.mp4",
+              "mel": {
+                "url": "./assets/mel/benchmark-case_0018-thinksound.png",
+                "fps": 50,
+                "duration": 10.005333333333333,
+                "frames": 501
+              }
+            },
+            {
+              "id": "prismaudio",
+              "label": "PrismAudio",
+              "url": "https://soundreactor-wbench-public-728750562872-20260920.s3.us-east-2.amazonaws.com/demo-v1/hevc25-20260929-v1/media/benchmark/case_0018/prismaudio.mp4",
+              "fallback_url": "https://soundreactor-wbench-public-728750562872-20260920.s3.us-east-2.amazonaws.com/demo-v1/h264720p25-20260929-v1/media/benchmark/case_0018/prismaudio.mp4",
+              "mel": {
+                "url": "./assets/mel/benchmark-case_0018-prismaudio.png",
+                "fps": 50,
+                "duration": 10.005333333333333,
+                "frames": 501
+              }
+            },
+            {
+              "id": "ground_truth",
+              "label": "Ground truth",
+              "url": "https://soundreactor-wbench-public-728750562872-20260920.s3.us-east-2.amazonaws.com/demo-v1/hevc25-20260929-v1/media/benchmark/case_0018/ground_truth.mp4",
+              "fallback_url": "https://soundreactor-wbench-public-728750562872-20260920.s3.us-east-2.amazonaws.com/demo-v1/h264720p25-20260929-v1/media/benchmark/case_0018/ground_truth.mp4",
+              "mel": {
+                "url": "./assets/mel/benchmark-case_0018-ground_truth.png",
+                "fps": 50,
+                "duration": 10.005333333333333,
+                "frames": 501
+              }
+            }
+          ],
+          "fallback_resolution": "1280×720"
+        },
+        {
+          "id": "case_0019",
+          "section": "benchmark",
+          "title": "Case 25",
+          "kicker": "",
+          "duration_sec": 10,
+          "resolution": "1920×1080",
+          "note": "",
+          "prompt_label": "Audio prompts",
+          "prompts": [
+            {
+              "start_sec": 0,
+              "caption": "The steady, rhythmic clopping of horse hooves on a dirt path is the dominant sound, indicating a horse and rider moving at a walk. This sound is accompanied by a faint, continuous rustling, likely from the horse's movement through the surrounding tall grass and white-flowered plants. The horse and rider are positioned in the midground, moving away from the viewpoint down the path."
+            },
+            {
+              "start_sec": 5,
+              "caption": "The rhythmic, heavy thud of a horse's hooves is the dominant sound, indicating a large animal walking at a steady pace on a soft surface. This sound is centered and prominent, suggesting the horse is in the midground, close to the recording device."
+            }
+          ],
+          "poster": "./assets/posters/benchmark-case_0019-frame0.jpg",
+          "videos": [
+            {
+              "id": "worldsonus",
+              "label": "WorldSonus",
+              "url": "https://soundreactor-wbench-public-728750562872-20260920.s3.us-east-2.amazonaws.com/demo-v1/hevc25-20260929-v1/media/benchmark/case_0019/worldsonus.mp4",
+              "fallback_url": "https://soundreactor-wbench-public-728750562872-20260920.s3.us-east-2.amazonaws.com/demo-v1/h264720p25-20260929-v1/media/benchmark/case_0019/worldsonus.mp4",
+              "mel": {
+                "url": "./assets/mel/benchmark-case_0019-worldsonus.png",
+                "fps": 50,
+                "duration": 10.005333333333333,
+                "frames": 501
+              }
+            },
+            {
+              "id": "audiox",
+              "label": "AudioX",
+              "url": "https://soundreactor-wbench-public-728750562872-20260920.s3.us-east-2.amazonaws.com/demo-v1/hevc25-20260929-v1/media/benchmark/case_0019/audiox.mp4",
+              "fallback_url": "https://soundreactor-wbench-public-728750562872-20260920.s3.us-east-2.amazonaws.com/demo-v1/h264720p25-20260929-v1/media/benchmark/case_0019/audiox.mp4",
+              "mel": {
+                "url": "./assets/mel/benchmark-case_0019-audiox.png",
+                "fps": 50,
+                "duration": 10.005333333333333,
+                "frames": 501
+              }
+            },
+            {
+              "id": "thinksound",
+              "label": "ThinkSound",
+              "url": "https://soundreactor-wbench-public-728750562872-20260920.s3.us-east-2.amazonaws.com/demo-v1/hevc25-20260929-v1/media/benchmark/case_0019/thinksound.mp4",
+              "fallback_url": "https://soundreactor-wbench-public-728750562872-20260920.s3.us-east-2.amazonaws.com/demo-v1/h264720p25-20260929-v1/media/benchmark/case_0019/thinksound.mp4",
+              "mel": {
+                "url": "./assets/mel/benchmark-case_0019-thinksound.png",
+                "fps": 50,
+                "duration": 10.005333333333333,
+                "frames": 501
+              }
+            },
+            {
+              "id": "prismaudio",
+              "label": "PrismAudio",
+              "url": "https://soundreactor-wbench-public-728750562872-20260920.s3.us-east-2.amazonaws.com/demo-v1/hevc25-20260929-v1/media/benchmark/case_0019/prismaudio.mp4",
+              "fallback_url": "https://soundreactor-wbench-public-728750562872-20260920.s3.us-east-2.amazonaws.com/demo-v1/h264720p25-20260929-v1/media/benchmark/case_0019/prismaudio.mp4",
+              "mel": {
+                "url": "./assets/mel/benchmark-case_0019-prismaudio.png",
+                "fps": 50,
+                "duration": 10.005333333333333,
+                "frames": 501
+              }
+            },
+            {
+              "id": "ground_truth",
+              "label": "Ground truth",
+              "url": "https://soundreactor-wbench-public-728750562872-20260920.s3.us-east-2.amazonaws.com/demo-v1/hevc25-20260929-v1/media/benchmark/case_0019/ground_truth.mp4",
+              "fallback_url": "https://soundreactor-wbench-public-728750562872-20260920.s3.us-east-2.amazonaws.com/demo-v1/h264720p25-20260929-v1/media/benchmark/case_0019/ground_truth.mp4",
+              "mel": {
+                "url": "./assets/mel/benchmark-case_0019-ground_truth.png",
+                "fps": 50,
+                "duration": 10.005333333333333,
+                "frames": 501
+              }
+            }
+          ],
+          "fallback_resolution": "1280×720"
+        },
+        {
+          "id": "case_0023",
+          "section": "benchmark",
+          "title": "Case 26",
+          "kicker": "",
+          "duration_sec": 10,
+          "resolution": "1920×1080",
+          "note": "",
+          "prompt_label": "Audio prompts",
+          "prompts": [
+            {
+              "start_sec": 0,
+              "caption": "A blue car approaches from the background, its engine and tire sounds growing louder as it moves towards the right side of the frame. As the car passes, a person riding a scooter is heard moving from the right to the left in the midground."
+            },
+            {
+              "start_sec": 5,
+              "caption": "A white scooter with a rider is visible on the right side of the road, moving forward and away from the camera. The scooter's engine produces a continuous, low-pitched hum that is audible throughout the clip."
+            }
+          ],
+          "poster": "./assets/posters/benchmark-case_0023-frame0.jpg",
+          "videos": [
+            {
+              "id": "worldsonus",
+              "label": "WorldSonus",
+              "url": "https://soundreactor-wbench-public-728750562872-20260920.s3.us-east-2.amazonaws.com/demo-v1/hevc25-20260929-v1/media/benchmark/case_0023/worldsonus.mp4",
+              "fallback_url": "https://soundreactor-wbench-public-728750562872-20260920.s3.us-east-2.amazonaws.com/demo-v1/h264720p25-20260929-v1/media/benchmark/case_0023/worldsonus.mp4",
+              "mel": {
+                "url": "./assets/mel/benchmark-case_0023-worldsonus.png",
+                "fps": 50,
+                "duration": 10.005333333333333,
+                "frames": 501
+              }
+            },
+            {
+              "id": "audiox",
+              "label": "AudioX",
+              "url": "https://soundreactor-wbench-public-728750562872-20260920.s3.us-east-2.amazonaws.com/demo-v1/hevc25-20260929-v1/media/benchmark/case_0023/audiox.mp4",
+              "fallback_url": "https://soundreactor-wbench-public-728750562872-20260920.s3.us-east-2.amazonaws.com/demo-v1/h264720p25-20260929-v1/media/benchmark/case_0023/audiox.mp4",
+              "mel": {
+                "url": "./assets/mel/benchmark-case_0023-audiox.png",
+                "fps": 50,
+                "duration": 10.005333333333333,
+                "frames": 501
+              }
+            },
+            {
+              "id": "thinksound",
+              "label": "ThinkSound",
+              "url": "https://soundreactor-wbench-public-728750562872-20260920.s3.us-east-2.amazonaws.com/demo-v1/hevc25-20260929-v1/media/benchmark/case_0023/thinksound.mp4",
+              "fallback_url": "https://soundreactor-wbench-public-728750562872-20260920.s3.us-east-2.amazonaws.com/demo-v1/h264720p25-20260929-v1/media/benchmark/case_0023/thinksound.mp4",
+              "mel": {
+                "url": "./assets/mel/benchmark-case_0023-thinksound.png",
+                "fps": 50,
+                "duration": 10.005333333333333,
+                "frames": 501
+              }
+            },
+            {
+              "id": "prismaudio",
+              "label": "PrismAudio",
+              "url": "https://soundreactor-wbench-public-728750562872-20260920.s3.us-east-2.amazonaws.com/demo-v1/hevc25-20260929-v1/media/benchmark/case_0023/prismaudio.mp4",
+              "fallback_url": "https://soundreactor-wbench-public-728750562872-20260920.s3.us-east-2.amazonaws.com/demo-v1/h264720p25-20260929-v1/media/benchmark/case_0023/prismaudio.mp4",
+              "mel": {
+                "url": "./assets/mel/benchmark-case_0023-prismaudio.png",
+                "fps": 50,
+                "duration": 10.005333333333333,
+                "frames": 501
+              }
+            },
+            {
+              "id": "ground_truth",
+              "label": "Ground truth",
+              "url": "https://soundreactor-wbench-public-728750562872-20260920.s3.us-east-2.amazonaws.com/demo-v1/hevc25-20260929-v1/media/benchmark/case_0023/ground_truth.mp4",
+              "fallback_url": "https://soundreactor-wbench-public-728750562872-20260920.s3.us-east-2.amazonaws.com/demo-v1/h264720p25-20260929-v1/media/benchmark/case_0023/ground_truth.mp4",
+              "mel": {
+                "url": "./assets/mel/benchmark-case_0023-ground_truth.png",
+                "fps": 50,
+                "duration": 10.005333333333333,
+                "frames": 501
+              }
+            }
+          ],
+          "fallback_resolution": "1280×720"
+        },
+        {
+          "id": "case_0024",
+          "section": "benchmark",
+          "title": "Case 27",
+          "kicker": "",
+          "duration_sec": 10,
+          "resolution": "1920×1080",
+          "note": "",
+          "prompt_label": "Audio prompts",
+          "prompts": [
+            {
+              "start_sec": 0,
+              "caption": "A dark-colored car drives past on the road to the left, its engine and tires creating a prominent, low-frequency rumble and a rushing whoosh as it moves from the left side of the scene toward the right. The sound of the car is loudest as it passes the recording point and then fades as it continues moving away."
+            },
+            {
+              "start_sec": 5,
+              "caption": "A large, low-pitched rumble from a heavy vehicle, likely a bus or truck, passes by on the road to the left, its sound growing louder as it approaches and then fading as it moves away. This prominent sound overlaps with the continuous, higher-pitched whirring of a distant boat engine, which can be heard running steadily in the background."
+            }
+          ],
+          "poster": "./assets/posters/benchmark-case_0024-frame0.jpg",
+          "videos": [
+            {
+              "id": "worldsonus",
+              "label": "WorldSonus",
+              "url": "https://soundreactor-wbench-public-728750562872-20260920.s3.us-east-2.amazonaws.com/demo-v1/hevc25-20260929-v1/media/benchmark/case_0024/worldsonus.mp4",
+              "fallback_url": "https://soundreactor-wbench-public-728750562872-20260920.s3.us-east-2.amazonaws.com/demo-v1/h264720p25-20260929-v1/media/benchmark/case_0024/worldsonus.mp4",
+              "mel": {
+                "url": "./assets/mel/benchmark-case_0024-worldsonus.png",
+                "fps": 50,
+                "duration": 10.005333333333333,
+                "frames": 501
+              }
+            },
+            {
+              "id": "audiox",
+              "label": "AudioX",
+              "url": "https://soundreactor-wbench-public-728750562872-20260920.s3.us-east-2.amazonaws.com/demo-v1/hevc25-20260929-v1/media/benchmark/case_0024/audiox.mp4",
+              "fallback_url": "https://soundreactor-wbench-public-728750562872-20260920.s3.us-east-2.amazonaws.com/demo-v1/h264720p25-20260929-v1/media/benchmark/case_0024/audiox.mp4",
+              "mel": {
+                "url": "./assets/mel/benchmark-case_0024-audiox.png",
+                "fps": 50,
+                "duration": 10.005333333333333,
+                "frames": 501
+              }
+            },
+            {
+              "id": "thinksound",
+              "label": "ThinkSound",
+              "url": "https://soundreactor-wbench-public-728750562872-20260920.s3.us-east-2.amazonaws.com/demo-v1/hevc25-20260929-v1/media/benchmark/case_0024/thinksound.mp4",
+              "fallback_url": "https://soundreactor-wbench-public-728750562872-20260920.s3.us-east-2.amazonaws.com/demo-v1/h264720p25-20260929-v1/media/benchmark/case_0024/thinksound.mp4",
+              "mel": {
+                "url": "./assets/mel/benchmark-case_0024-thinksound.png",
+                "fps": 50,
+                "duration": 10.005333333333333,
+                "frames": 501
+              }
+            },
+            {
+              "id": "prismaudio",
+              "label": "PrismAudio",
+              "url": "https://soundreactor-wbench-public-728750562872-20260920.s3.us-east-2.amazonaws.com/demo-v1/hevc25-20260929-v1/media/benchmark/case_0024/prismaudio.mp4",
+              "fallback_url": "https://soundreactor-wbench-public-728750562872-20260920.s3.us-east-2.amazonaws.com/demo-v1/h264720p25-20260929-v1/media/benchmark/case_0024/prismaudio.mp4",
+              "mel": {
+                "url": "./assets/mel/benchmark-case_0024-prismaudio.png",
+                "fps": 50,
+                "duration": 10.005333333333333,
+                "frames": 501
+              }
+            },
+            {
+              "id": "ground_truth",
+              "label": "Ground truth",
+              "url": "https://soundreactor-wbench-public-728750562872-20260920.s3.us-east-2.amazonaws.com/demo-v1/hevc25-20260929-v1/media/benchmark/case_0024/ground_truth.mp4",
+              "fallback_url": "https://soundreactor-wbench-public-728750562872-20260920.s3.us-east-2.amazonaws.com/demo-v1/h264720p25-20260929-v1/media/benchmark/case_0024/ground_truth.mp4",
+              "mel": {
+                "url": "./assets/mel/benchmark-case_0024-ground_truth.png",
+                "fps": 50,
+                "duration": 10.005333333333333,
+                "frames": 501
+              }
+            }
+          ],
+          "fallback_resolution": "1280×720"
+        },
+        {
+          "id": "case_0031",
+          "section": "benchmark",
+          "title": "Case 28",
+          "kicker": "",
+          "duration_sec": 10,
+          "resolution": "1920×1080",
+          "note": "",
+          "prompt_label": "Audio prompts",
+          "prompts": [
+            {
+              "start_sec": 0,
+              "caption": "A white car approaches from the left and passes by the camera, its engine and tires producing a prominent, low-pitched rumble that grows louder as it nears and then fades as it moves to the right. In the background, the continuous, lower-pitched hum of distant city traffic persists throughout the clip."
+            },
+            {
+              "start_sec": 5,
+              "caption": "The dominant sound is the low, continuous rumble of a large vehicle engine, accompanied by the higher-pitched whine of its tires on the wet asphalt. This sound grows louder as a blue and white bus approaches from the left background, crosses the intersection in front of the camera, and then recedes into the right background."
+            }
+          ],
+          "poster": "./assets/posters/benchmark-case_0031-frame0.jpg",
+          "videos": [
+            {
+              "id": "worldsonus",
+              "label": "WorldSonus",
+              "url": "https://soundreactor-wbench-public-728750562872-20260920.s3.us-east-2.amazonaws.com/demo-v1/hevc25-20260929-v1/media/benchmark/case_0031/worldsonus.mp4",
+              "fallback_url": "https://soundreactor-wbench-public-728750562872-20260920.s3.us-east-2.amazonaws.com/demo-v1/h264720p25-20260929-v1/media/benchmark/case_0031/worldsonus.mp4",
+              "mel": {
+                "url": "./assets/mel/benchmark-case_0031-worldsonus.png",
+                "fps": 50,
+                "duration": 10.005333333333333,
+                "frames": 501
+              }
+            },
+            {
+              "id": "audiox",
+              "label": "AudioX",
+              "url": "https://soundreactor-wbench-public-728750562872-20260920.s3.us-east-2.amazonaws.com/demo-v1/hevc25-20260929-v1/media/benchmark/case_0031/audiox.mp4",
+              "fallback_url": "https://soundreactor-wbench-public-728750562872-20260920.s3.us-east-2.amazonaws.com/demo-v1/h264720p25-20260929-v1/media/benchmark/case_0031/audiox.mp4",
+              "mel": {
+                "url": "./assets/mel/benchmark-case_0031-audiox.png",
+                "fps": 50,
+                "duration": 10.005333333333333,
+                "frames": 501
+              }
+            },
+            {
+              "id": "thinksound",
+              "label": "ThinkSound",
+              "url": "https://soundreactor-wbench-public-728750562872-20260920.s3.us-east-2.amazonaws.com/demo-v1/hevc25-20260929-v1/media/benchmark/case_0031/thinksound.mp4",
+              "fallback_url": "https://soundreactor-wbench-public-728750562872-20260920.s3.us-east-2.amazonaws.com/demo-v1/h264720p25-20260929-v1/media/benchmark/case_0031/thinksound.mp4",
+              "mel": {
+                "url": "./assets/mel/benchmark-case_0031-thinksound.png",
+                "fps": 50,
+                "duration": 10.005333333333333,
+                "frames": 501
+              }
+            },
+            {
+              "id": "prismaudio",
+              "label": "PrismAudio",
+              "url": "https://soundreactor-wbench-public-728750562872-20260920.s3.us-east-2.amazonaws.com/demo-v1/hevc25-20260929-v1/media/benchmark/case_0031/prismaudio.mp4",
+              "fallback_url": "https://soundreactor-wbench-public-728750562872-20260920.s3.us-east-2.amazonaws.com/demo-v1/h264720p25-20260929-v1/media/benchmark/case_0031/prismaudio.mp4",
+              "mel": {
+                "url": "./assets/mel/benchmark-case_0031-prismaudio.png",
+                "fps": 50,
+                "duration": 10.005333333333333,
+                "frames": 501
+              }
+            },
+            {
+              "id": "ground_truth",
+              "label": "Ground truth",
+              "url": "https://soundreactor-wbench-public-728750562872-20260920.s3.us-east-2.amazonaws.com/demo-v1/hevc25-20260929-v1/media/benchmark/case_0031/ground_truth.mp4",
+              "fallback_url": "https://soundreactor-wbench-public-728750562872-20260920.s3.us-east-2.amazonaws.com/demo-v1/h264720p25-20260929-v1/media/benchmark/case_0031/ground_truth.mp4",
+              "mel": {
+                "url": "./assets/mel/benchmark-case_0031-ground_truth.png",
+                "fps": 50,
+                "duration": 10.005333333333333,
+                "frames": 501
+              }
+            }
+          ],
+          "fallback_resolution": "1280×720"
+        },
+        {
+          "id": "case_0033",
+          "section": "benchmark",
+          "title": "Case 29",
+          "kicker": "",
+          "duration_sec": 10,
+          "resolution": "1920×1080",
+          "note": "",
+          "prompt_label": "Audio prompts",
+          "prompts": [
+            {
+              "start_sec": 0,
+              "caption": "The low, continuous rumble of distant city traffic forms the background. A vehicle approaches from the distance, its engine and tire sounds growing progressively louder as it travels down the street, passing by the recording position before fading into the distance."
+            },
+            {
+              "start_sec": 5,
+              "caption": "The low hum of distant city traffic forms a constant background. A car approaches from the background, its engine growing louder as it passes by on the left side of the street, and then fades into the distance."
+            }
+          ],
+          "poster": "./assets/posters/benchmark-case_0033-frame0.jpg",
+          "videos": [
+            {
+              "id": "worldsonus",
+              "label": "WorldSonus",
+              "url": "https://soundreactor-wbench-public-728750562872-20260920.s3.us-east-2.amazonaws.com/demo-v1/hevc25-20260929-v1/media/benchmark/case_0033/worldsonus.mp4",
+              "fallback_url": "https://soundreactor-wbench-public-728750562872-20260920.s3.us-east-2.amazonaws.com/demo-v1/h264720p25-20260929-v1/media/benchmark/case_0033/worldsonus.mp4",
+              "mel": {
+                "url": "./assets/mel/benchmark-case_0033-worldsonus.png",
+                "fps": 50,
+                "duration": 10.005333333333333,
+                "frames": 501
+              }
+            },
+            {
+              "id": "audiox",
+              "label": "AudioX",
+              "url": "https://soundreactor-wbench-public-728750562872-20260920.s3.us-east-2.amazonaws.com/demo-v1/hevc25-20260929-v1/media/benchmark/case_0033/audiox.mp4",
+              "fallback_url": "https://soundreactor-wbench-public-728750562872-20260920.s3.us-east-2.amazonaws.com/demo-v1/h264720p25-20260929-v1/media/benchmark/case_0033/audiox.mp4",
+              "mel": {
+                "url": "./assets/mel/benchmark-case_0033-audiox.png",
+                "fps": 50,
+                "duration": 10.005333333333333,
+                "frames": 501
+              }
+            },
+            {
+              "id": "thinksound",
+              "label": "ThinkSound",
+              "url": "https://soundreactor-wbench-public-728750562872-20260920.s3.us-east-2.amazonaws.com/demo-v1/hevc25-20260929-v1/media/benchmark/case_0033/thinksound.mp4",
+              "fallback_url": "https://soundreactor-wbench-public-728750562872-20260920.s3.us-east-2.amazonaws.com/demo-v1/h264720p25-20260929-v1/media/benchmark/case_0033/thinksound.mp4",
+              "mel": {
+                "url": "./assets/mel/benchmark-case_0033-thinksound.png",
+                "fps": 50,
+                "duration": 10.005333333333333,
+                "frames": 501
+              }
+            },
+            {
+              "id": "prismaudio",
+              "label": "PrismAudio",
+              "url": "https://soundreactor-wbench-public-728750562872-20260920.s3.us-east-2.amazonaws.com/demo-v1/hevc25-20260929-v1/media/benchmark/case_0033/prismaudio.mp4",
+              "fallback_url": "https://soundreactor-wbench-public-728750562872-20260920.s3.us-east-2.amazonaws.com/demo-v1/h264720p25-20260929-v1/media/benchmark/case_0033/prismaudio.mp4",
+              "mel": {
+                "url": "./assets/mel/benchmark-case_0033-prismaudio.png",
+                "fps": 50,
+                "duration": 10.005333333333333,
+                "frames": 501
+              }
+            },
+            {
+              "id": "ground_truth",
+              "label": "Ground truth",
+              "url": "https://soundreactor-wbench-public-728750562872-20260920.s3.us-east-2.amazonaws.com/demo-v1/hevc25-20260929-v1/media/benchmark/case_0033/ground_truth.mp4",
+              "fallback_url": "https://soundreactor-wbench-public-728750562872-20260920.s3.us-east-2.amazonaws.com/demo-v1/h264720p25-20260929-v1/media/benchmark/case_0033/ground_truth.mp4",
+              "mel": {
+                "url": "./assets/mel/benchmark-case_0033-ground_truth.png",
+                "fps": 50,
+                "duration": 10.005333333333333,
+                "frames": 501
+              }
+            }
+          ],
+          "fallback_resolution": "1280×720"
+        },
+        {
+          "id": "case_0037",
+          "section": "benchmark",
+          "title": "Case 30",
+          "kicker": "",
+          "duration_sec": 10,
+          "resolution": "1920×1080",
+          "note": "",
+          "prompt_label": "Audio prompts",
+          "prompts": [
+            {
+              "start_sec": 0,
+              "caption": "A person in dark clothing walks from the right side of the frame towards the left, crossing a white-striped pedestrian crosswalk. As the person moves, the distinct, rhythmic clatter of their footsteps on the pavement is audible. This sound is layered over the continuous, low rumble of city traffic, with a vehicle passing by in the background."
+            },
+            {
+              "start_sec": 5,
+              "caption": "A vehicle engine starts and accelerates, driving away from the viewer down the street. The sound of the engine is initially prominent in the foreground before fading into the background as the vehicle moves further away."
+            }
+          ],
+          "poster": "./assets/posters/benchmark-case_0037-frame0.jpg",
+          "videos": [
+            {
+              "id": "worldsonus",
+              "label": "WorldSonus",
+              "url": "https://soundreactor-wbench-public-728750562872-20260920.s3.us-east-2.amazonaws.com/demo-v1/hevc25-20260929-v1/media/benchmark/case_0037/worldsonus.mp4",
+              "fallback_url": "https://soundreactor-wbench-public-728750562872-20260920.s3.us-east-2.amazonaws.com/demo-v1/h264720p25-20260929-v1/media/benchmark/case_0037/worldsonus.mp4",
+              "mel": {
+                "url": "./assets/mel/benchmark-case_0037-worldsonus.png",
+                "fps": 50,
+                "duration": 10.005333333333333,
+                "frames": 501
+              }
+            },
+            {
+              "id": "audiox",
+              "label": "AudioX",
+              "url": "https://soundreactor-wbench-public-728750562872-20260920.s3.us-east-2.amazonaws.com/demo-v1/hevc25-20260929-v1/media/benchmark/case_0037/audiox.mp4",
+              "fallback_url": "https://soundreactor-wbench-public-728750562872-20260920.s3.us-east-2.amazonaws.com/demo-v1/h264720p25-20260929-v1/media/benchmark/case_0037/audiox.mp4",
+              "mel": {
+                "url": "./assets/mel/benchmark-case_0037-audiox.png",
+                "fps": 50,
+                "duration": 10.005333333333333,
+                "frames": 501
+              }
+            },
+            {
+              "id": "thinksound",
+              "label": "ThinkSound",
+              "url": "https://soundreactor-wbench-public-728750562872-20260920.s3.us-east-2.amazonaws.com/demo-v1/hevc25-20260929-v1/media/benchmark/case_0037/thinksound.mp4",
+              "fallback_url": "https://soundreactor-wbench-public-728750562872-20260920.s3.us-east-2.amazonaws.com/demo-v1/h264720p25-20260929-v1/media/benchmark/case_0037/thinksound.mp4",
+              "mel": {
+                "url": "./assets/mel/benchmark-case_0037-thinksound.png",
+                "fps": 50,
+                "duration": 10.005333333333333,
+                "frames": 501
+              }
+            },
+            {
+              "id": "prismaudio",
+              "label": "PrismAudio",
+              "url": "https://soundreactor-wbench-public-728750562872-20260920.s3.us-east-2.amazonaws.com/demo-v1/hevc25-20260929-v1/media/benchmark/case_0037/prismaudio.mp4",
+              "fallback_url": "https://soundreactor-wbench-public-728750562872-20260920.s3.us-east-2.amazonaws.com/demo-v1/h264720p25-20260929-v1/media/benchmark/case_0037/prismaudio.mp4",
+              "mel": {
+                "url": "./assets/mel/benchmark-case_0037-prismaudio.png",
+                "fps": 50,
+                "duration": 10.005333333333333,
+                "frames": 501
+              }
+            },
+            {
+              "id": "ground_truth",
+              "label": "Ground truth",
+              "url": "https://soundreactor-wbench-public-728750562872-20260920.s3.us-east-2.amazonaws.com/demo-v1/hevc25-20260929-v1/media/benchmark/case_0037/ground_truth.mp4",
+              "fallback_url": "https://soundreactor-wbench-public-728750562872-20260920.s3.us-east-2.amazonaws.com/demo-v1/h264720p25-20260929-v1/media/benchmark/case_0037/ground_truth.mp4",
+              "mel": {
+                "url": "./assets/mel/benchmark-case_0037-ground_truth.png",
+                "fps": 50,
+                "duration": 10.005333333333333,
+                "frames": 501
+              }
+            }
+          ],
+          "fallback_resolution": "1280×720"
+        },
+        {
+          "id": "v2a10_059067d4736455184bb20bbb09ea4105d8607964",
+          "section": "benchmark",
+          "title": "Case 31",
+          "kicker": "",
+          "duration_sec": 10,
+          "resolution": "1920×1080",
+          "note": "",
+          "prompt_label": "Audio prompts",
+          "prompts": [
+            {
+              "start_sec": 0,
+              "caption": "A person wearing armor and carrying a round shield walks through shallow water toward a wooden boat, creating prominent splashing and sloshing sounds. As the person climbs into the boat, the sound of their movement transitions to the gentle creaking of the wooden vessel. The boat then begins to move through the water, producing a rhythmic lapping sound as it displaces the liquid."
+            },
+            {
+              "start_sec": 5,
+              "caption": "The rhythmic, low-pitched creaking of a wooden boat's structure is audible as it moves through the water, accompanied by the gentle lapping of waves against its hull. This sound is in the foreground and continues steadily throughout the clip."
+            }
+          ],
+          "poster": "./assets/posters/benchmark-v2a10_059067d4736455184bb20bbb09ea4105d8607964-frame0.jpg",
+          "videos": [
+            {
+              "id": "worldsonus",
+              "label": "WorldSonus",
+              "url": "https://soundreactor-wbench-public-728750562872-20260920.s3.us-east-2.amazonaws.com/demo-v1/hevc25-20260929-v1/media/benchmark/v2a10_059067d4736455184bb20bbb09ea4105d8607964/worldsonus.mp4",
+              "fallback_url": "https://soundreactor-wbench-public-728750562872-20260920.s3.us-east-2.amazonaws.com/demo-v1/h264720p25-20260929-v1/media/benchmark/v2a10_059067d4736455184bb20bbb09ea4105d8607964/worldsonus.mp4",
+              "mel": {
+                "url": "./assets/mel/benchmark-v2a10_059067d4736455184bb20bbb09ea4105d8607964-worldsonus.png",
+                "fps": 50,
+                "duration": 10.005333333333333,
+                "frames": 501
+              }
+            },
+            {
+              "id": "audiox",
+              "label": "AudioX",
+              "url": "https://soundreactor-wbench-public-728750562872-20260920.s3.us-east-2.amazonaws.com/demo-v1/hevc25-20260929-v1/media/benchmark/v2a10_059067d4736455184bb20bbb09ea4105d8607964/audiox.mp4",
+              "fallback_url": "https://soundreactor-wbench-public-728750562872-20260920.s3.us-east-2.amazonaws.com/demo-v1/h264720p25-20260929-v1/media/benchmark/v2a10_059067d4736455184bb20bbb09ea4105d8607964/audiox.mp4",
+              "mel": {
+                "url": "./assets/mel/benchmark-v2a10_059067d4736455184bb20bbb09ea4105d8607964-audiox.png",
+                "fps": 50,
+                "duration": 10.005333333333333,
+                "frames": 501
+              }
+            },
+            {
+              "id": "thinksound",
+              "label": "ThinkSound",
+              "url": "https://soundreactor-wbench-public-728750562872-20260920.s3.us-east-2.amazonaws.com/demo-v1/hevc25-20260929-v1/media/benchmark/v2a10_059067d4736455184bb20bbb09ea4105d8607964/thinksound.mp4",
+              "fallback_url": "https://soundreactor-wbench-public-728750562872-20260920.s3.us-east-2.amazonaws.com/demo-v1/h264720p25-20260929-v1/media/benchmark/v2a10_059067d4736455184bb20bbb09ea4105d8607964/thinksound.mp4",
+              "mel": {
+                "url": "./assets/mel/benchmark-v2a10_059067d4736455184bb20bbb09ea4105d8607964-thinksound.png",
+                "fps": 50,
+                "duration": 10.005333333333333,
+                "frames": 501
+              }
+            },
+            {
+              "id": "prismaudio",
+              "label": "PrismAudio",
+              "url": "https://soundreactor-wbench-public-728750562872-20260920.s3.us-east-2.amazonaws.com/demo-v1/hevc25-20260929-v1/media/benchmark/v2a10_059067d4736455184bb20bbb09ea4105d8607964/prismaudio.mp4",
+              "fallback_url": "https://soundreactor-wbench-public-728750562872-20260920.s3.us-east-2.amazonaws.com/demo-v1/h264720p25-20260929-v1/media/benchmark/v2a10_059067d4736455184bb20bbb09ea4105d8607964/prismaudio.mp4",
+              "mel": {
+                "url": "./assets/mel/benchmark-v2a10_059067d4736455184bb20bbb09ea4105d8607964-prismaudio.png",
+                "fps": 50,
+                "duration": 10.005333333333333,
+                "frames": 501
+              }
+            },
+            {
+              "id": "ground_truth",
+              "label": "Ground truth",
+              "url": "https://soundreactor-wbench-public-728750562872-20260920.s3.us-east-2.amazonaws.com/demo-v1/hevc25-20260929-v1/media/benchmark/v2a10_059067d4736455184bb20bbb09ea4105d8607964/ground_truth.mp4",
+              "fallback_url": "https://soundreactor-wbench-public-728750562872-20260920.s3.us-east-2.amazonaws.com/demo-v1/h264720p25-20260929-v1/media/benchmark/v2a10_059067d4736455184bb20bbb09ea4105d8607964/ground_truth.mp4",
+              "mel": {
+                "url": "./assets/mel/benchmark-v2a10_059067d4736455184bb20bbb09ea4105d8607964-ground_truth.png",
+                "fps": 50,
+                "duration": 10.005333333333333,
+                "frames": 501
+              }
+            }
+          ],
+          "fallback_resolution": "1280×720"
+        },
+        {
+          "id": "v2a10_c623470f71fd77ed7a959271d08236d425a6f7d3",
+          "section": "benchmark",
+          "title": "Case 32",
+          "kicker": "",
+          "duration_sec": 10,
+          "resolution": "1920×1080",
+          "note": "",
+          "prompt_label": "Audio prompts",
+          "prompts": [
+            {
+              "start_sec": 0,
+              "caption": "The ambient sound of city traffic forms a continuous background hum. A car horn blares sharply from the midground, originating from the right side of the scene, as a white car is visible parked nearby."
+            },
+            {
+              "start_sec": 5,
+              "caption": "A vehicle engine idles with a low, steady rumble, positioned in the midground to the right. The sound of a car horn is then heard, originating from the same area, as the engine continues to idle."
+            }
+          ],
+          "poster": "./assets/posters/benchmark-v2a10_c623470f71fd77ed7a959271d08236d425a6f7d3-frame0.jpg",
+          "videos": [
+            {
+              "id": "worldsonus",
+              "label": "WorldSonus",
+              "url": "https://soundreactor-wbench-public-728750562872-20260920.s3.us-east-2.amazonaws.com/demo-v1/hevc25-20260929-v1/media/benchmark/v2a10_c623470f71fd77ed7a959271d08236d425a6f7d3/worldsonus.mp4",
+              "fallback_url": "https://soundreactor-wbench-public-728750562872-20260920.s3.us-east-2.amazonaws.com/demo-v1/h264720p25-20260929-v1/media/benchmark/v2a10_c623470f71fd77ed7a959271d08236d425a6f7d3/worldsonus.mp4",
+              "mel": {
+                "url": "./assets/mel/benchmark-v2a10_c623470f71fd77ed7a959271d08236d425a6f7d3-worldsonus.png",
+                "fps": 50,
+                "duration": 10.005333333333333,
+                "frames": 501
+              }
+            },
+            {
+              "id": "audiox",
+              "label": "AudioX",
+              "url": "https://soundreactor-wbench-public-728750562872-20260920.s3.us-east-2.amazonaws.com/demo-v1/hevc25-20260929-v1/media/benchmark/v2a10_c623470f71fd77ed7a959271d08236d425a6f7d3/audiox.mp4",
+              "fallback_url": "https://soundreactor-wbench-public-728750562872-20260920.s3.us-east-2.amazonaws.com/demo-v1/h264720p25-20260929-v1/media/benchmark/v2a10_c623470f71fd77ed7a959271d08236d425a6f7d3/audiox.mp4",
+              "mel": {
+                "url": "./assets/mel/benchmark-v2a10_c623470f71fd77ed7a959271d08236d425a6f7d3-audiox.png",
+                "fps": 50,
+                "duration": 10.005333333333333,
+                "frames": 501
+              }
+            },
+            {
+              "id": "thinksound",
+              "label": "ThinkSound",
+              "url": "https://soundreactor-wbench-public-728750562872-20260920.s3.us-east-2.amazonaws.com/demo-v1/hevc25-20260929-v1/media/benchmark/v2a10_c623470f71fd77ed7a959271d08236d425a6f7d3/thinksound.mp4",
+              "fallback_url": "https://soundreactor-wbench-public-728750562872-20260920.s3.us-east-2.amazonaws.com/demo-v1/h264720p25-20260929-v1/media/benchmark/v2a10_c623470f71fd77ed7a959271d08236d425a6f7d3/thinksound.mp4",
+              "mel": {
+                "url": "./assets/mel/benchmark-v2a10_c623470f71fd77ed7a959271d08236d425a6f7d3-thinksound.png",
+                "fps": 50,
+                "duration": 10.005333333333333,
+                "frames": 501
+              }
+            },
+            {
+              "id": "prismaudio",
+              "label": "PrismAudio",
+              "url": "https://soundreactor-wbench-public-728750562872-20260920.s3.us-east-2.amazonaws.com/demo-v1/hevc25-20260929-v1/media/benchmark/v2a10_c623470f71fd77ed7a959271d08236d425a6f7d3/prismaudio.mp4",
+              "fallback_url": "https://soundreactor-wbench-public-728750562872-20260920.s3.us-east-2.amazonaws.com/demo-v1/h264720p25-20260929-v1/media/benchmark/v2a10_c623470f71fd77ed7a959271d08236d425a6f7d3/prismaudio.mp4",
+              "mel": {
+                "url": "./assets/mel/benchmark-v2a10_c623470f71fd77ed7a959271d08236d425a6f7d3-prismaudio.png",
+                "fps": 50,
+                "duration": 10.005333333333333,
+                "frames": 501
+              }
+            },
+            {
+              "id": "ground_truth",
+              "label": "Ground truth",
+              "url": "https://soundreactor-wbench-public-728750562872-20260920.s3.us-east-2.amazonaws.com/demo-v1/hevc25-20260929-v1/media/benchmark/v2a10_c623470f71fd77ed7a959271d08236d425a6f7d3/ground_truth.mp4",
+              "fallback_url": "https://soundreactor-wbench-public-728750562872-20260920.s3.us-east-2.amazonaws.com/demo-v1/h264720p25-20260929-v1/media/benchmark/v2a10_c623470f71fd77ed7a959271d08236d425a6f7d3/ground_truth.mp4",
+              "mel": {
+                "url": "./assets/mel/benchmark-v2a10_c623470f71fd77ed7a959271d08236d425a6f7d3-ground_truth.png",
+                "fps": 50,
+                "duration": 10.005333333333333,
+                "frames": 501
+              }
+            }
+          ],
+          "fallback_resolution": "1280×720"
+        },
+        {
+          "id": "v2a10_4d8e5d528dabd1d3c7d808305fb1e6ec3bb8dbe5",
+          "section": "benchmark",
+          "title": "Case 33",
+          "kicker": "",
+          "duration_sec": 10,
+          "resolution": "1920×1080",
+          "note": "",
+          "prompt_label": "Audio prompts",
+          "prompts": [
+            {
+              "start_sec": 0,
+              "caption": "The low, continuous hum of distant city traffic forms the background. A vehicle engine starts up nearby, its sound growing steadily louder as it accelerates and moves from the left side of the scene toward the right."
+            },
+            {
+              "start_sec": 5,
+              "caption": "A continuous low-frequency rumble from a large vehicle engine is present throughout the clip, suggesting a bus or truck is idling or moving slowly nearby. Over this persistent background, the distinct, sharp hiss of air brakes being released is heard clearly in the foreground, indicating a vehicle is actively stopping or adjusting its position. The sound of the air brakes is prominent and close, while the engine rumble forms a steady, slightly more distant bed."
+            }
+          ],
+          "poster": "./assets/posters/benchmark-v2a10_4d8e5d528dabd1d3c7d808305fb1e6ec3bb8dbe5-frame0.jpg",
+          "videos": [
+            {
+              "id": "worldsonus",
+              "label": "WorldSonus",
+              "url": "https://soundreactor-wbench-public-728750562872-20260920.s3.us-east-2.amazonaws.com/demo-v1/hevc25-20260929-v1/media/benchmark/v2a10_4d8e5d528dabd1d3c7d808305fb1e6ec3bb8dbe5/worldsonus.mp4",
+              "fallback_url": "https://soundreactor-wbench-public-728750562872-20260920.s3.us-east-2.amazonaws.com/demo-v1/h264720p25-20260929-v1/media/benchmark/v2a10_4d8e5d528dabd1d3c7d808305fb1e6ec3bb8dbe5/worldsonus.mp4",
+              "mel": {
+                "url": "./assets/mel/benchmark-v2a10_4d8e5d528dabd1d3c7d808305fb1e6ec3bb8dbe5-worldsonus.png",
+                "fps": 50,
+                "duration": 10.005333333333333,
+                "frames": 501
+              }
+            },
+            {
+              "id": "audiox",
+              "label": "AudioX",
+              "url": "https://soundreactor-wbench-public-728750562872-20260920.s3.us-east-2.amazonaws.com/demo-v1/hevc25-20260929-v1/media/benchmark/v2a10_4d8e5d528dabd1d3c7d808305fb1e6ec3bb8dbe5/audiox.mp4",
+              "fallback_url": "https://soundreactor-wbench-public-728750562872-20260920.s3.us-east-2.amazonaws.com/demo-v1/h264720p25-20260929-v1/media/benchmark/v2a10_4d8e5d528dabd1d3c7d808305fb1e6ec3bb8dbe5/audiox.mp4",
+              "mel": {
+                "url": "./assets/mel/benchmark-v2a10_4d8e5d528dabd1d3c7d808305fb1e6ec3bb8dbe5-audiox.png",
+                "fps": 50,
+                "duration": 10.005333333333333,
+                "frames": 501
+              }
+            },
+            {
+              "id": "thinksound",
+              "label": "ThinkSound",
+              "url": "https://soundreactor-wbench-public-728750562872-20260920.s3.us-east-2.amazonaws.com/demo-v1/hevc25-20260929-v1/media/benchmark/v2a10_4d8e5d528dabd1d3c7d808305fb1e6ec3bb8dbe5/thinksound.mp4",
+              "fallback_url": "https://soundreactor-wbench-public-728750562872-20260920.s3.us-east-2.amazonaws.com/demo-v1/h264720p25-20260929-v1/media/benchmark/v2a10_4d8e5d528dabd1d3c7d808305fb1e6ec3bb8dbe5/thinksound.mp4",
+              "mel": {
+                "url": "./assets/mel/benchmark-v2a10_4d8e5d528dabd1d3c7d808305fb1e6ec3bb8dbe5-thinksound.png",
+                "fps": 50,
+                "duration": 10.005333333333333,
+                "frames": 501
+              }
+            },
+            {
+              "id": "prismaudio",
+              "label": "PrismAudio",
+              "url": "https://soundreactor-wbench-public-728750562872-20260920.s3.us-east-2.amazonaws.com/demo-v1/hevc25-20260929-v1/media/benchmark/v2a10_4d8e5d528dabd1d3c7d808305fb1e6ec3bb8dbe5/prismaudio.mp4",
+              "fallback_url": "https://soundreactor-wbench-public-728750562872-20260920.s3.us-east-2.amazonaws.com/demo-v1/h264720p25-20260929-v1/media/benchmark/v2a10_4d8e5d528dabd1d3c7d808305fb1e6ec3bb8dbe5/prismaudio.mp4",
+              "mel": {
+                "url": "./assets/mel/benchmark-v2a10_4d8e5d528dabd1d3c7d808305fb1e6ec3bb8dbe5-prismaudio.png",
+                "fps": 50,
+                "duration": 10.005333333333333,
+                "frames": 501
+              }
+            },
+            {
+              "id": "ground_truth",
+              "label": "Ground truth",
+              "url": "https://soundreactor-wbench-public-728750562872-20260920.s3.us-east-2.amazonaws.com/demo-v1/hevc25-20260929-v1/media/benchmark/v2a10_4d8e5d528dabd1d3c7d808305fb1e6ec3bb8dbe5/ground_truth.mp4",
+              "fallback_url": "https://soundreactor-wbench-public-728750562872-20260920.s3.us-east-2.amazonaws.com/demo-v1/h264720p25-20260929-v1/media/benchmark/v2a10_4d8e5d528dabd1d3c7d808305fb1e6ec3bb8dbe5/ground_truth.mp4",
+              "mel": {
+                "url": "./assets/mel/benchmark-v2a10_4d8e5d528dabd1d3c7d808305fb1e6ec3bb8dbe5-ground_truth.png",
+                "fps": 50,
+                "duration": 10.005333333333333,
+                "frames": 501
+              }
+            }
+          ],
+          "fallback_resolution": "1280×720"
+        },
+        {
+          "id": "v2a10_5886fb9f3ff2719dcad9040704164871ede34cf2",
+          "section": "benchmark",
+          "title": "Case 34",
+          "kicker": "",
+          "duration_sec": 10,
+          "resolution": "1920×1080",
+          "note": "",
+          "prompt_label": "Audio prompts",
+          "prompts": [
+            {
+              "start_sec": 0,
+              "caption": "The sound of gentle waves lapping against the shore is continuous and prominent. The waves are rhythmic, with each one washing up on the sand in the foreground before receding back into the sea."
+            },
+            {
+              "start_sec": 5,
+              "caption": "The gentle, rhythmic lapping of water against the shore is the most prominent sound, originating from the sea in the midground. This continuous sound is accompanied by a faint, low-frequency hum that persists in the background throughout the clip."
+            }
+          ],
+          "poster": "./assets/posters/benchmark-v2a10_5886fb9f3ff2719dcad9040704164871ede34cf2-frame0.jpg",
+          "videos": [
+            {
+              "id": "worldsonus",
+              "label": "WorldSonus",
+              "url": "https://soundreactor-wbench-public-728750562872-20260920.s3.us-east-2.amazonaws.com/demo-v1/hevc25-20260929-v1/media/benchmark/v2a10_5886fb9f3ff2719dcad9040704164871ede34cf2/worldsonus.mp4",
+              "fallback_url": "https://soundreactor-wbench-public-728750562872-20260920.s3.us-east-2.amazonaws.com/demo-v1/h264720p25-20260929-v1/media/benchmark/v2a10_5886fb9f3ff2719dcad9040704164871ede34cf2/worldsonus.mp4",
+              "mel": {
+                "url": "./assets/mel/benchmark-v2a10_5886fb9f3ff2719dcad9040704164871ede34cf2-worldsonus.png",
+                "fps": 50,
+                "duration": 10.005333333333333,
+                "frames": 501
+              }
+            },
+            {
+              "id": "audiox",
+              "label": "AudioX",
+              "url": "https://soundreactor-wbench-public-728750562872-20260920.s3.us-east-2.amazonaws.com/demo-v1/hevc25-20260929-v1/media/benchmark/v2a10_5886fb9f3ff2719dcad9040704164871ede34cf2/audiox.mp4",
+              "fallback_url": "https://soundreactor-wbench-public-728750562872-20260920.s3.us-east-2.amazonaws.com/demo-v1/h264720p25-20260929-v1/media/benchmark/v2a10_5886fb9f3ff2719dcad9040704164871ede34cf2/audiox.mp4",
+              "mel": {
+                "url": "./assets/mel/benchmark-v2a10_5886fb9f3ff2719dcad9040704164871ede34cf2-audiox.png",
+                "fps": 50,
+                "duration": 10.005333333333333,
+                "frames": 501
+              }
+            },
+            {
+              "id": "thinksound",
+              "label": "ThinkSound",
+              "url": "https://soundreactor-wbench-public-728750562872-20260920.s3.us-east-2.amazonaws.com/demo-v1/hevc25-20260929-v1/media/benchmark/v2a10_5886fb9f3ff2719dcad9040704164871ede34cf2/thinksound.mp4",
+              "fallback_url": "https://soundreactor-wbench-public-728750562872-20260920.s3.us-east-2.amazonaws.com/demo-v1/h264720p25-20260929-v1/media/benchmark/v2a10_5886fb9f3ff2719dcad9040704164871ede34cf2/thinksound.mp4",
+              "mel": {
+                "url": "./assets/mel/benchmark-v2a10_5886fb9f3ff2719dcad9040704164871ede34cf2-thinksound.png",
+                "fps": 50,
+                "duration": 10.005333333333333,
+                "frames": 501
+              }
+            },
+            {
+              "id": "prismaudio",
+              "label": "PrismAudio",
+              "url": "https://soundreactor-wbench-public-728750562872-20260920.s3.us-east-2.amazonaws.com/demo-v1/hevc25-20260929-v1/media/benchmark/v2a10_5886fb9f3ff2719dcad9040704164871ede34cf2/prismaudio.mp4",
+              "fallback_url": "https://soundreactor-wbench-public-728750562872-20260920.s3.us-east-2.amazonaws.com/demo-v1/h264720p25-20260929-v1/media/benchmark/v2a10_5886fb9f3ff2719dcad9040704164871ede34cf2/prismaudio.mp4",
+              "mel": {
+                "url": "./assets/mel/benchmark-v2a10_5886fb9f3ff2719dcad9040704164871ede34cf2-prismaudio.png",
+                "fps": 50,
+                "duration": 10.005333333333333,
+                "frames": 501
+              }
+            },
+            {
+              "id": "ground_truth",
+              "label": "Ground truth",
+              "url": "https://soundreactor-wbench-public-728750562872-20260920.s3.us-east-2.amazonaws.com/demo-v1/hevc25-20260929-v1/media/benchmark/v2a10_5886fb9f3ff2719dcad9040704164871ede34cf2/ground_truth.mp4",
+              "fallback_url": "https://soundreactor-wbench-public-728750562872-20260920.s3.us-east-2.amazonaws.com/demo-v1/h264720p25-20260929-v1/media/benchmark/v2a10_5886fb9f3ff2719dcad9040704164871ede34cf2/ground_truth.mp4",
+              "mel": {
+                "url": "./assets/mel/benchmark-v2a10_5886fb9f3ff2719dcad9040704164871ede34cf2-ground_truth.png",
+                "fps": 50,
+                "duration": 10.005333333333333,
+                "frames": 501
+              }
+            }
+          ],
+          "fallback_resolution": "1280×720"
+        },
+        {
+          "id": "v2a10_6b001211cbb402613f8aa95477acaecbcc5c7056",
+          "section": "benchmark",
+          "title": "Case 35",
+          "kicker": "",
+          "duration_sec": 10,
+          "resolution": "1920×1080",
+          "note": "",
+          "prompt_label": "Audio prompts",
+          "prompts": [
+            {
+              "start_sec": 0,
+              "caption": "The continuous, low roar of a vehicle's engine and tires moving on wet pavement is the dominant sound, indicating a car driving through the rain. This sound begins in the midground on the right, grows louder as the car approaches the camera's position, and then fades as it passes by and moves into the background on the left."
+            },
+            {
+              "start_sec": 5,
+              "caption": "A vehicle with a loud engine passes by on the wet street, its sound prominent as it moves from the right side of the scene towards the left."
+            }
+          ],
+          "poster": "./assets/posters/benchmark-v2a10_6b001211cbb402613f8aa95477acaecbcc5c7056-frame0.jpg",
+          "videos": [
+            {
+              "id": "worldsonus",
+              "label": "WorldSonus",
+              "url": "https://soundreactor-wbench-public-728750562872-20260920.s3.us-east-2.amazonaws.com/demo-v1/hevc25-20260929-v1/media/benchmark/v2a10_6b001211cbb402613f8aa95477acaecbcc5c7056/worldsonus.mp4",
+              "fallback_url": "https://soundreactor-wbench-public-728750562872-20260920.s3.us-east-2.amazonaws.com/demo-v1/h264720p25-20260929-v1/media/benchmark/v2a10_6b001211cbb402613f8aa95477acaecbcc5c7056/worldsonus.mp4",
+              "mel": {
+                "url": "./assets/mel/benchmark-v2a10_6b001211cbb402613f8aa95477acaecbcc5c7056-worldsonus.png",
+                "fps": 50,
+                "duration": 10.005333333333333,
+                "frames": 501
+              }
+            },
+            {
+              "id": "audiox",
+              "label": "AudioX",
+              "url": "https://soundreactor-wbench-public-728750562872-20260920.s3.us-east-2.amazonaws.com/demo-v1/hevc25-20260929-v1/media/benchmark/v2a10_6b001211cbb402613f8aa95477acaecbcc5c7056/audiox.mp4",
+              "fallback_url": "https://soundreactor-wbench-public-728750562872-20260920.s3.us-east-2.amazonaws.com/demo-v1/h264720p25-20260929-v1/media/benchmark/v2a10_6b001211cbb402613f8aa95477acaecbcc5c7056/audiox.mp4",
+              "mel": {
+                "url": "./assets/mel/benchmark-v2a10_6b001211cbb402613f8aa95477acaecbcc5c7056-audiox.png",
+                "fps": 50,
+                "duration": 10.005333333333333,
+                "frames": 501
+              }
+            },
+            {
+              "id": "thinksound",
+              "label": "ThinkSound",
+              "url": "https://soundreactor-wbench-public-728750562872-20260920.s3.us-east-2.amazonaws.com/demo-v1/hevc25-20260929-v1/media/benchmark/v2a10_6b001211cbb402613f8aa95477acaecbcc5c7056/thinksound.mp4",
+              "fallback_url": "https://soundreactor-wbench-public-728750562872-20260920.s3.us-east-2.amazonaws.com/demo-v1/h264720p25-20260929-v1/media/benchmark/v2a10_6b001211cbb402613f8aa95477acaecbcc5c7056/thinksound.mp4",
+              "mel": {
+                "url": "./assets/mel/benchmark-v2a10_6b001211cbb402613f8aa95477acaecbcc5c7056-thinksound.png",
+                "fps": 50,
+                "duration": 10.005333333333333,
+                "frames": 501
+              }
+            },
+            {
+              "id": "prismaudio",
+              "label": "PrismAudio",
+              "url": "https://soundreactor-wbench-public-728750562872-20260920.s3.us-east-2.amazonaws.com/demo-v1/hevc25-20260929-v1/media/benchmark/v2a10_6b001211cbb402613f8aa95477acaecbcc5c7056/prismaudio.mp4",
+              "fallback_url": "https://soundreactor-wbench-public-728750562872-20260920.s3.us-east-2.amazonaws.com/demo-v1/h264720p25-20260929-v1/media/benchmark/v2a10_6b001211cbb402613f8aa95477acaecbcc5c7056/prismaudio.mp4",
+              "mel": {
+                "url": "./assets/mel/benchmark-v2a10_6b001211cbb402613f8aa95477acaecbcc5c7056-prismaudio.png",
+                "fps": 50,
+                "duration": 10.005333333333333,
+                "frames": 501
+              }
+            },
+            {
+              "id": "ground_truth",
+              "label": "Ground truth",
+              "url": "https://soundreactor-wbench-public-728750562872-20260920.s3.us-east-2.amazonaws.com/demo-v1/hevc25-20260929-v1/media/benchmark/v2a10_6b001211cbb402613f8aa95477acaecbcc5c7056/ground_truth.mp4",
+              "fallback_url": "https://soundreactor-wbench-public-728750562872-20260920.s3.us-east-2.amazonaws.com/demo-v1/h264720p25-20260929-v1/media/benchmark/v2a10_6b001211cbb402613f8aa95477acaecbcc5c7056/ground_truth.mp4",
+              "mel": {
+                "url": "./assets/mel/benchmark-v2a10_6b001211cbb402613f8aa95477acaecbcc5c7056-ground_truth.png",
+                "fps": 50,
+                "duration": 10.005333333333333,
+                "frames": 501
+              }
+            }
+          ],
+          "fallback_resolution": "1280×720"
+        }
+      ]
+    },
+    {
+      "id": "long",
+      "label": "30s rollouts",
+      "short_label": "30s",
+      "description": "Continuous audio generation across six prompt windows.",
+      "cases": [
+        {
+          "id": "longeval_912ae2c450963bfb7f445743",
+          "section": "long",
+          "title": "Case 36",
+          "kicker": "",
+          "duration_sec": 30,
+          "resolution": "1920×1080",
+          "note": "",
+          "prompt_label": "Audio prompt timeline",
+          "prompts": [
+            {
+              "start_sec": 0,
+              "caption": "The primary sound is the continuous, rushing flow of a river, which is loud and prominent in the foreground. This sound is consistent throughout the clip, with the water moving rapidly over rocks and creating white water."
+            },
+            {
+              "start_sec": 5,
+              "caption": "The continuous, low-frequency rushing sound of a fast-flowing river is prominent throughout the clip, originating from the midground where the water moves swiftly between the visible rocks."
+            },
+            {
+              "start_sec": 10,
+              "caption": "The continuous, low-frequency roar of rushing water fills the soundscape, suggesting a strong current in a river or stream. The sound is prominent and consistent, originating from the midground where the water flows between the visible rocks."
+            },
+            {
+              "start_sec": 15,
+              "caption": "A loud, rhythmic chugging sound, characteristic of a steam locomotive, is heard as a train moves across a metal bridge from right to left. The sound of the train's wheels clattering on the tracks overlaps with the continuous, lower-pitched rumble of the engine. This prominent midground sound is accompanied by the constant, ambient gurgle of water flowing beneath the bridge."
+            },
+            {
+              "start_sec": 20,
+              "caption": "The dominant sound is a loud, rhythmic chugging of a steam train, accompanied by the metallic clatter of its wheels on the tracks. This powerful sound, originating from the midground where the train is crossing a trestle bridge, continues steadily throughout the clip."
+            },
+            {
+              "start_sec": 25,
+              "caption": "A train is moving on a bridge, producing a rhythmic clatter from its wheels on the tracks and a low, steady rumble from its engine. The sound is prominent and consistent, indicating the train is in the midground and moving from left to right across the scene."
+            }
+          ],
+          "poster": "./assets/posters/long-longeval_912ae2c450963bfb7f445743-frame0.jpg",
+          "videos": [
+            {
+              "id": "worldsonus",
+              "label": "WorldSonus",
+              "url": "https://soundreactor-wbench-public-728750562872-20260920.s3.us-east-2.amazonaws.com/demo-v1/hevc25-20260929-v1/media/long/longeval_912ae2c450963bfb7f445743/worldsonus.mp4",
+              "fallback_url": "https://soundreactor-wbench-public-728750562872-20260920.s3.us-east-2.amazonaws.com/demo-v1/h264720p25-20260929-v1/media/long/longeval_912ae2c450963bfb7f445743/worldsonus.mp4",
+              "mel": {
+                "url": "./assets/mel/long-longeval_912ae2c450963bfb7f445743-worldsonus.png",
+                "fps": 50,
+                "duration": 30.016,
+                "frames": 1501
+              }
+            },
+            {
+              "id": "ground_truth",
+              "label": "Ground truth",
+              "url": "https://soundreactor-wbench-public-728750562872-20260920.s3.us-east-2.amazonaws.com/demo-v1/hevc25-20260929-v1/media/long/longeval_912ae2c450963bfb7f445743/ground_truth.mp4",
+              "fallback_url": "https://soundreactor-wbench-public-728750562872-20260920.s3.us-east-2.amazonaws.com/demo-v1/h264720p25-20260929-v1/media/long/longeval_912ae2c450963bfb7f445743/ground_truth.mp4",
+              "mel": {
+                "url": "./assets/mel/long-longeval_912ae2c450963bfb7f445743-ground_truth.png",
+                "fps": 50,
+                "duration": 30.016,
+                "frames": 1501
+              }
+            }
+          ],
+          "fallback_resolution": "1280×720"
+        },
+        {
+          "id": "longeval_192b01c72b85b4b098a1bd37",
+          "section": "long",
+          "title": "Case 37",
+          "kicker": "",
+          "duration_sec": 30,
+          "resolution": "1920×1080",
+          "note": "",
+          "prompt_label": "Audio prompt timeline",
+          "prompts": [
+            {
+              "start_sec": 0,
+              "caption": "The rhythmic, steady clopping of horse hooves on a dirt path is the most prominent sound, indicating three horses are trotting forward. This sound is accompanied by a faint, continuous rustling, likely from the riders' clothing or the horses' tack. The hoofbeats are positioned in the midground, suggesting the horses are moving ahead of the listener's point of view."
+            },
+            {
+              "start_sec": 5,
+              "caption": "The prominent sound is the rhythmic, mid-to-low-pitched thud of multiple horse hooves striking a dirt path, creating a steady gallop. This sound originates from the midground, where three horses are visible moving away from the camera. The horses' gallop continues consistently throughout the clip, with no other distinct background noises audible."
+            },
+            {
+              "start_sec": 10,
+              "caption": "The clip opens with the rhythmic, mid-range thudding of multiple horse hooves trotting on a dirt path, suggesting three horses moving in unison. This steady, percussive sound is the most prominent layer, with the closest horse slightly to the left of center in the stereo field. Faint, high-pitched bird chirps can be heard in the background, adding to the open, outdoor ambiance."
+            },
+            {
+              "start_sec": 15,
+              "caption": "The steady, rhythmic clopping of horse hooves on a dirt path is the dominant sound, indicating three horses moving at a walk. The sound is centered and originates from the midground, corresponding to the three riders seen from behind. This continuous, moderate-volume hoofbeat is layered over a faint, constant background hiss, likely representing the ambient environment."
+            },
+            {
+              "start_sec": 20,
+              "caption": "The rhythmic, steady clopping of horse hooves on a dirt path is the dominant sound, indicating a group of horses moving together at a walk. This sound is clear and close, suggesting the horses are in the midground relative to the listener, and the consistent tempo implies a continuous forward motion."
+            },
+            {
+              "start_sec": 25,
+              "caption": "The rhythmic, heavy clopping of horse hooves on dry dirt dominates the soundscape, indicating three horses moving together at a steady pace. This sound is accompanied by the subtle creaking of leather saddles and the soft rustle of fabric as the riders move with the horses' gait. The sound source is located in the midground, directly behind the perspective of the recording device, and continues consistently throughout the clip."
+            }
+          ],
+          "poster": "./assets/posters/long-longeval_192b01c72b85b4b098a1bd37-frame0.jpg",
+          "videos": [
+            {
+              "id": "worldsonus",
+              "label": "WorldSonus",
+              "url": "https://soundreactor-wbench-public-728750562872-20260920.s3.us-east-2.amazonaws.com/demo-v1/hevc25-20260929-v1/media/long/longeval_192b01c72b85b4b098a1bd37/worldsonus.mp4",
+              "fallback_url": "https://soundreactor-wbench-public-728750562872-20260920.s3.us-east-2.amazonaws.com/demo-v1/h264720p25-20260929-v1/media/long/longeval_192b01c72b85b4b098a1bd37/worldsonus.mp4",
+              "mel": {
+                "url": "./assets/mel/long-longeval_192b01c72b85b4b098a1bd37-worldsonus.png",
+                "fps": 50,
+                "duration": 30.016,
+                "frames": 1501
+              }
+            },
+            {
+              "id": "ground_truth",
+              "label": "Ground truth",
+              "url": "https://soundreactor-wbench-public-728750562872-20260920.s3.us-east-2.amazonaws.com/demo-v1/hevc25-20260929-v1/media/long/longeval_192b01c72b85b4b098a1bd37/ground_truth.mp4",
+              "fallback_url": "https://soundreactor-wbench-public-728750562872-20260920.s3.us-east-2.amazonaws.com/demo-v1/h264720p25-20260929-v1/media/long/longeval_192b01c72b85b4b098a1bd37/ground_truth.mp4",
+              "mel": {
+                "url": "./assets/mel/long-longeval_192b01c72b85b4b098a1bd37-ground_truth.png",
+                "fps": 50,
+                "duration": 30.016,
+                "frames": 1501
+              }
+            }
+          ],
+          "fallback_resolution": "1280×720"
+        },
+        {
+          "id": "longeval_d1133e3816d0e62325a732f8",
+          "section": "long",
+          "title": "Case 38",
+          "kicker": "",
+          "duration_sec": 30,
+          "resolution": "1920×1080",
+          "note": "",
+          "prompt_label": "Audio prompt timeline",
+          "prompts": [
+            {
+              "start_sec": 0,
+              "caption": "The dominant sound is a rhythmic crunching, characteristic of footsteps on a loose, gravelly surface, suggesting someone is walking. This sound is clear and consistent, indicating the source is in the foreground and moving forward. The crunching continues steadily throughout the clip, with no other distinct sounds audible."
+            },
+            {
+              "start_sec": 5,
+              "caption": "A horse is trotting on a dirt path, its rhythmic hoofbeats creating a steady, moderate-tempo clip-clop sound. The horse is moving from the left side of the frame towards the right, with the sound of its movement growing slightly louder as it approaches the foreground before fading as it moves away."
+            },
+            {
+              "start_sec": 10,
+              "caption": "The scene is set with the ambient sound of a gentle wind rustling through the surrounding vegetation. A series of footsteps on a loose, gravelly surface begins in the midground and moves steadily from the right side of the frame toward the left, growing slightly louder as they approach before fading."
+            },
+            {
+              "start_sec": 15,
+              "caption": "A horse-drawn carriage approaches on a dirt road, its rhythmic hoofbeats growing louder as it moves from the background toward the foreground. The sound of the horse's breathing is faintly audible alongside the steady clatter of its hooves on the unpaved path."
+            },
+            {
+              "start_sec": 20,
+              "caption": "A horse-drawn cart approaches from the midground, its rhythmic clopping of hooves on the dirt road growing louder as it draws closer. The sound of the wooden wheels rolling over the uneven path is continuous and prominent, accompanied by the occasional creak of the cart's frame. As the cart passes by on the right side of the road, the hoofbeats and rolling sounds briefly intensify before fading into the distance."
+            },
+            {
+              "start_sec": 25,
+              "caption": "A rhythmic, low-frequency rumbling sound, like a heavy cart being pulled by an animal, moves from the right side of the scene towards the left. The sound starts in the foreground, grows louder as it passes by, and then fades as it recedes into the midground, indicating the cart is moving away from the listener's position."
+            }
+          ],
+          "poster": "./assets/posters/long-longeval_d1133e3816d0e62325a732f8-frame0.jpg",
+          "videos": [
+            {
+              "id": "worldsonus",
+              "label": "WorldSonus",
+              "url": "https://soundreactor-wbench-public-728750562872-20260920.s3.us-east-2.amazonaws.com/demo-v1/hevc25-20260929-v1/media/long/longeval_d1133e3816d0e62325a732f8/worldsonus.mp4",
+              "fallback_url": "https://soundreactor-wbench-public-728750562872-20260920.s3.us-east-2.amazonaws.com/demo-v1/h264720p25-20260929-v1/media/long/longeval_d1133e3816d0e62325a732f8/worldsonus.mp4",
+              "mel": {
+                "url": "./assets/mel/long-longeval_d1133e3816d0e62325a732f8-worldsonus.png",
+                "fps": 50,
+                "duration": 30.016,
+                "frames": 1501
+              }
+            },
+            {
+              "id": "ground_truth",
+              "label": "Ground truth",
+              "url": "https://soundreactor-wbench-public-728750562872-20260920.s3.us-east-2.amazonaws.com/demo-v1/hevc25-20260929-v1/media/long/longeval_d1133e3816d0e62325a732f8/ground_truth.mp4",
+              "fallback_url": "https://soundreactor-wbench-public-728750562872-20260920.s3.us-east-2.amazonaws.com/demo-v1/h264720p25-20260929-v1/media/long/longeval_d1133e3816d0e62325a732f8/ground_truth.mp4",
+              "mel": {
+                "url": "./assets/mel/long-longeval_d1133e3816d0e62325a732f8-ground_truth.png",
+                "fps": 50,
+                "duration": 30.016,
+                "frames": 1501
+              }
+            }
+          ],
+          "fallback_resolution": "1280×720"
+        },
+        {
+          "id": "longeval_2973bc0749b78e8dcbb203e2",
+          "section": "long",
+          "title": "Case 39",
+          "kicker": "",
+          "duration_sec": 30,
+          "resolution": "1920×1080",
+          "note": "",
+          "prompt_label": "Audio prompt timeline",
+          "prompts": [
+            {
+              "start_sec": 0,
+              "caption": "The continuous, low-frequency roar of the ocean serves as a constant background ambience, with the sound of waves rhythmically crashing and receding on the shore. This foreground sound is most prominent in the midground, where the water meets the rocky coastline, and its intensity fluctuates with each wave's approach and retreat."
+            },
+            {
+              "start_sec": 5,
+              "caption": "The continuous, powerful crashing of ocean waves is the dominant sound, with the most forceful impacts occurring in the midground where the water meets the dark, jagged rocks. This creates a loud, low-frequency roar that is accompanied by the constant hiss of water receding and the sound of white foam bubbling over the rocks. The sound is immersive and fills the audio space, suggesting the microphone is positioned very close to the turbulent water's edge."
+            },
+            {
+              "start_sec": 10,
+              "caption": "The dominant sound is the continuous, moderate roar of ocean waves crashing against rocks. This powerful, rhythmic sound is centered and appears to originate from the midground, corresponding to the visible water washing over the dark, wet rocks in the frame."
+            },
+            {
+              "start_sec": 15,
+              "caption": "The sound of ocean waves crashing against rocks is heard, with the strongest impact occurring on the left side of the audio field. The rhythmic crashing continues throughout the clip, with the sound appearing to originate from the midground, corresponding to the visible waves washing over the rocks."
+            },
+            {
+              "start_sec": 20,
+              "caption": "The dominant sound is the continuous, powerful crashing of ocean waves against the rocky shore. This loud, rhythmic roar is produced by the waves breaking in the midground, sending white spray into the air. The sound is strong and persistent throughout the clip, creating a constant, immersive background of surf."
+            },
+            {
+              "start_sec": 25,
+              "caption": "The dominant sound is the continuous, low-frequency roar of ocean waves crashing on a shore. This powerful sound, originating from the midground and background, fluctuates in intensity as waves approach and break on the rocks and beach."
+            }
+          ],
+          "poster": "./assets/posters/long-longeval_2973bc0749b78e8dcbb203e2-frame0.jpg",
+          "videos": [
+            {
+              "id": "worldsonus",
+              "label": "WorldSonus",
+              "url": "https://soundreactor-wbench-public-728750562872-20260920.s3.us-east-2.amazonaws.com/demo-v1/hevc25-20260929-v1/media/long/longeval_2973bc0749b78e8dcbb203e2/worldsonus.mp4",
+              "fallback_url": "https://soundreactor-wbench-public-728750562872-20260920.s3.us-east-2.amazonaws.com/demo-v1/h264720p25-20260929-v1/media/long/longeval_2973bc0749b78e8dcbb203e2/worldsonus.mp4",
+              "mel": {
+                "url": "./assets/mel/long-longeval_2973bc0749b78e8dcbb203e2-worldsonus.png",
+                "fps": 50,
+                "duration": 30.016,
+                "frames": 1501
+              }
+            },
+            {
+              "id": "ground_truth",
+              "label": "Ground truth",
+              "url": "https://soundreactor-wbench-public-728750562872-20260920.s3.us-east-2.amazonaws.com/demo-v1/hevc25-20260929-v1/media/long/longeval_2973bc0749b78e8dcbb203e2/ground_truth.mp4",
+              "fallback_url": "https://soundreactor-wbench-public-728750562872-20260920.s3.us-east-2.amazonaws.com/demo-v1/h264720p25-20260929-v1/media/long/longeval_2973bc0749b78e8dcbb203e2/ground_truth.mp4",
+              "mel": {
+                "url": "./assets/mel/long-longeval_2973bc0749b78e8dcbb203e2-ground_truth.png",
+                "fps": 50,
+                "duration": 30.016,
+                "frames": 1501
+              }
+            }
+          ],
+          "fallback_resolution": "1280×720"
+        },
+        {
+          "id": "longeval_5850c9d91621132129be9f63",
+          "section": "long",
+          "title": "Case 40",
+          "kicker": "",
+          "duration_sec": 30,
+          "resolution": "1920×1080",
+          "note": "",
+          "prompt_label": "Audio prompt timeline",
+          "prompts": [
+            {
+              "start_sec": 0,
+              "caption": "The audio begins with the prominent sound of footsteps splashing through shallow water, suggesting movement through a stream or flooded area. This is immediately followed by the sound of heavy, rhythmic breathing, indicating physical exertion. As the character runs through a field of tall red flowers, the sound of their footsteps transitions from splashing to crunching on the dry ground. The breathing remains audible, maintaining a steady rhythm as the character continues to run forward."
+            },
+            {
+              "start_sec": 5,
+              "caption": "The sound of a horse galloping on a dirt path is prominent in the foreground, its hooves kicking up dust as it moves from left to right across the midground. This is accompanied by the heavy, rhythmic breathing of the rider, who is also moving with the horse. In the background, a male voice speaks in a foreign language, his words overlapping with the continuous sound of the galloping horse."
+            },
+            {
+              "start_sec": 10,
+              "caption": "A person is running on a dirt path, and their footsteps are heard on the hard ground. The sound of their footsteps changes as they run into a muddy area, where the impact is softer and accompanied by squelching."
+            },
+            {
+              "start_sec": 15,
+              "caption": "A person is running through shallow water, creating prominent splashing sounds that are loud and close, indicating the source is in the foreground. The splashing continues as the person moves onto a sandy shore, where the sound changes to the crunching of footsteps on loose ground."
+            },
+            {
+              "start_sec": 20,
+              "caption": "A person runs through shallow water, their footsteps creating a continuous, rhythmic splashing sound. The splashing is prominent and close, indicating the person is in the midground, moving from the center toward the right of the scene."
+            },
+            {
+              "start_sec": 25,
+              "caption": "A person is wading through shallow water, creating a continuous, moderate splashing sound. The sound is centered and close, corresponding to the person's movement through the water."
+            }
+          ],
+          "poster": "./assets/posters/long-longeval_5850c9d91621132129be9f63-frame0.jpg",
+          "videos": [
+            {
+              "id": "worldsonus",
+              "label": "WorldSonus",
+              "url": "https://soundreactor-wbench-public-728750562872-20260920.s3.us-east-2.amazonaws.com/demo-v1/hevc25-20260929-v1/media/long/longeval_5850c9d91621132129be9f63/worldsonus.mp4",
+              "fallback_url": "https://soundreactor-wbench-public-728750562872-20260920.s3.us-east-2.amazonaws.com/demo-v1/h264720p25-20260929-v1/media/long/longeval_5850c9d91621132129be9f63/worldsonus.mp4",
+              "mel": {
+                "url": "./assets/mel/long-longeval_5850c9d91621132129be9f63-worldsonus.png",
+                "fps": 50,
+                "duration": 30.016,
+                "frames": 1501
+              }
+            },
+            {
+              "id": "ground_truth",
+              "label": "Ground truth",
+              "url": "https://soundreactor-wbench-public-728750562872-20260920.s3.us-east-2.amazonaws.com/demo-v1/hevc25-20260929-v1/media/long/longeval_5850c9d91621132129be9f63/ground_truth.mp4",
+              "fallback_url": "https://soundreactor-wbench-public-728750562872-20260920.s3.us-east-2.amazonaws.com/demo-v1/h264720p25-20260929-v1/media/long/longeval_5850c9d91621132129be9f63/ground_truth.mp4",
+              "mel": {
+                "url": "./assets/mel/long-longeval_5850c9d91621132129be9f63-ground_truth.png",
+                "fps": 50,
+                "duration": 30.016,
+                "frames": 1501
+              }
+            }
+          ],
+          "fallback_resolution": "1280×720"
+        },
+        {
+          "id": "longeval_aa50426755469b27e31b2f55",
+          "section": "long",
+          "title": "Case 41",
+          "kicker": "",
+          "duration_sec": 30,
+          "resolution": "1408×1056",
+          "note": "",
+          "prompt_label": "Audio prompt timeline",
+          "prompts": [
+            {
+              "start_sec": 0,
+              "caption": "A person's hands are actively mixing ingredients in a white bowl, creating a continuous, wet, squishing sound from the center of the frame. This is accompanied by a faint, low-frequency hum from an appliance in the background. The person then picks up a wooden spoon from the left side of the counter and uses it to continue stirring the mixture in the bowl."
+            },
+            {
+              "start_sec": 5,
+              "caption": "A wooden spoon scrapes against the side of a white bowl, creating a rhythmic, dry sound as it mixes the contents. This scraping sound is the most prominent and occurs in the foreground, slightly to the right of the center."
+            },
+            {
+              "start_sec": 10,
+              "caption": "A wooden spoon is scraped against a white bowl, creating a rhythmic, scraping sound. The spoon is then placed on a blue cutting board, producing a dull thud. A person's hands move around the bowl, manipulating the food inside."
+            },
+            {
+              "start_sec": 15,
+              "caption": "The audio begins with a continuous, low-frequency hum, likely from an appliance such as a refrigerator, forming the background ambiance. Over this, a series of sharp, brittle crunching sounds are heard, originating from the right side of the scene and close to the microphone, consistent with someone mixing or pressing a dry, crumbly food mixture in a bowl."
+            },
+            {
+              "start_sec": 20,
+              "caption": "A person's hands are mixing ingredients in a white bowl, creating a continuous, soft rustling sound. The sound is centered and occurs in the foreground, close to the microphone."
+            },
+            {
+              "start_sec": 25,
+              "caption": "A person is mixing ingredients in a white bowl on a wooden counter, creating a continuous rustling and scraping sound as their hands move through the food. This sound is prominent in the foreground, indicating the action is close to the microphone. The mixing continues steadily throughout the clip, with no other distinct sounds present."
+            }
+          ],
+          "poster": "./assets/posters/long-longeval_aa50426755469b27e31b2f55-frame0.jpg",
+          "videos": [
+            {
+              "id": "worldsonus",
+              "label": "WorldSonus",
+              "url": "https://soundreactor-wbench-public-728750562872-20260920.s3.us-east-2.amazonaws.com/demo-v1/hevc25-20260929-v1/media/long/longeval_aa50426755469b27e31b2f55/worldsonus.mp4",
+              "fallback_url": "https://soundreactor-wbench-public-728750562872-20260920.s3.us-east-2.amazonaws.com/demo-v1/h264720p25-20260929-v1/media/long/longeval_aa50426755469b27e31b2f55/worldsonus.mp4",
+              "mel": {
+                "url": "./assets/mel/long-longeval_aa50426755469b27e31b2f55-worldsonus.png",
+                "fps": 50,
+                "duration": 30.016,
+                "frames": 1501
+              }
+            },
+            {
+              "id": "ground_truth",
+              "label": "Ground truth",
+              "url": "https://soundreactor-wbench-public-728750562872-20260920.s3.us-east-2.amazonaws.com/demo-v1/hevc25-20260929-v1/media/long/longeval_aa50426755469b27e31b2f55/ground_truth.mp4",
+              "fallback_url": "https://soundreactor-wbench-public-728750562872-20260920.s3.us-east-2.amazonaws.com/demo-v1/h264720p25-20260929-v1/media/long/longeval_aa50426755469b27e31b2f55/ground_truth.mp4",
+              "mel": {
+                "url": "./assets/mel/long-longeval_aa50426755469b27e31b2f55-ground_truth.png",
+                "fps": 50,
+                "duration": 30.016,
+                "frames": 1501
+              }
+            }
+          ],
+          "fallback_resolution": "960×720"
+        }
+      ]
+    }
+  ],
+  "counts": {
+    "total": 41,
+    "generated": 15,
+    "benchmark": 20,
+    "long": 6
+  }
+}

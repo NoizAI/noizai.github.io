@@ -1,0 +1,646 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="description" content="WorldSonus generates real-time, interactive spatial audio for videos and world models. Explore streaming video-to-audio demos, the method, and model weights." />
+    <link rel="canonical" href="https://noizai.github.io/WorldSonus/" />
+    <title>WorldSonus: Bringing Sound to Worlds</title>
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='15' fill='%23070b0f'/%3E%3Cpath d='M12 35h7l4-17 7 31 6-25 5 18 4-7h7' fill='none' stroke='%2368f7cc' stroke-width='5' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E" />
+    <style>
+      :root {
+        color-scheme: dark;
+        --bg: #07090c;
+        --panel: #101419;
+        --panel-2: #151b21;
+        --line: #263039;
+        --text: #f4f7f5;
+        --muted: #95a19d;
+        --accent: #68f7cc;
+        --accent-2: #ffbd70;
+        --danger: #ff8b7a;
+        --radius: 18px;
+        font-family: Inter, "Helvetica Neue", Arial, sans-serif;
+      }
+      * { box-sizing: border-box; }
+      html { background: var(--bg); scroll-behavior: smooth; }
+      body {
+        margin: 0;
+        min-width: 320px;
+        color: var(--text);
+        background:
+          radial-gradient(circle at 82% -10%, rgba(36, 112, 91, .22), transparent 31rem),
+          radial-gradient(circle at -8% 45%, rgba(130, 70, 25, .14), transparent 30rem),
+          var(--bg);
+      }
+      button { font: inherit; }
+      button:focus-visible, summary:focus-visible, video:focus-visible {
+        outline: 2px solid var(--accent);
+        outline-offset: 3px;
+      }
+      .shell { width: min(1560px, calc(100% - 40px)); margin: 0 auto; padding: 22px 0 58px; }
+      .topbar {
+        display: flex; align-items: center; justify-content: space-between; gap: 24px;
+        min-height: 58px; border-bottom: 1px solid rgba(255,255,255,.08);
+      }
+      .brand { display: flex; align-items: center; gap: 12px; min-width: 0; }
+      .brand-mark {
+        width: 36px; height: 36px; border: 1px solid #3c4c49; border-radius: 11px;
+        display: flex; align-items: center; justify-content: center; gap: 2px;
+        background: linear-gradient(145deg, #15201e, #0b0e11);
+      }
+      .brand-mark i { display: block; width: 3px; border-radius: 999px; background: var(--accent); }
+      .brand-mark i:nth-child(1) { height: 9px; }
+      .brand-mark i:nth-child(2) { height: 20px; }
+      .brand-mark i:nth-child(3) { height: 13px; }
+      .brand strong { display: block; font-size: 16px; letter-spacing: -.01em; }
+      .brand span { display: block; color: var(--muted); font-size: 12px; margin-top: 2px; }
+      .top-meta { display: flex; gap: 20px; color: var(--muted); font-size: 12px; }
+      .top-meta b { color: var(--text); font-size: 14px; margin-right: 4px; }
+      .intro {
+        display: grid; grid-template-columns: minmax(0, 1.3fr) minmax(280px, .7fr);
+        align-items: end; gap: 40px; padding: 46px 0 30px;
+      }
+      .eyebrow {
+        margin: 0 0 10px; color: var(--accent); font-size: 12px; font-weight: 800;
+        letter-spacing: .16em; text-transform: uppercase;
+      }
+      h1 { margin: 0; max-width: 850px; font-size: clamp(42px, 7vw, 88px); line-height: .93; letter-spacing: -.065em; }
+      .intro-copy { margin: 0 0 4px; color: #b7c1be; font-size: 16px; line-height: 1.65; max-width: 560px; justify-self: end; }
+      .section-tabs {
+        position: sticky; top: 0; z-index: 20; display: flex; gap: 8px; padding: 12px 0;
+        background: linear-gradient(to bottom, rgba(7,9,12,.96) 75%, transparent);
+        backdrop-filter: blur(12px);
+      }
+      .section-tab {
+        display: flex; align-items: center; gap: 9px; min-height: 42px; padding: 0 15px;
+        border: 1px solid var(--line); border-radius: 999px; background: #10151a; color: #b8c1be;
+        cursor: pointer; transition: .18s ease;
+      }
+      .section-tab:hover { border-color: #44554f; color: var(--text); }
+      .section-tab.active { color: #07100d; border-color: var(--accent); background: var(--accent); font-weight: 800; }
+      .section-tab small {
+        min-width: 22px; padding: 2px 6px; border-radius: 999px; color: inherit;
+        background: rgba(0,0,0,.14); font-size: 11px; text-align: center;
+      }
+      .section-note { margin: 2px 0 18px; color: var(--muted); font-size: 14px; }
+      .workspace { display: grid; grid-template-columns: 320px minmax(0, 1fr); gap: 18px; align-items: start; }
+      .case-rail {
+        max-height: calc(100vh - 92px); overflow: auto; padding: 5px 8px 12px 0;
+        scrollbar-color: #344139 transparent; scrollbar-width: thin;
+      }
+      .case-list { display: grid; gap: 9px; }
+      .case-button {
+        width: 100%; display: grid; grid-template-columns: 90px minmax(0, 1fr); gap: 12px;
+        align-items: center; padding: 7px; border: 1px solid transparent; border-radius: 13px;
+        color: var(--text); background: transparent; text-align: left; cursor: pointer;
+      }
+      .case-button:hover { background: rgba(255,255,255,.035); }
+      .case-button.active { border-color: #3f5750; background: #14201d; }
+      .case-button img {
+        width: 90px; aspect-ratio: 16/10; object-fit: cover; border-radius: 9px;
+        background: #0b0e11; border: 1px solid #27302f;
+      }
+      .case-button strong { display: block; font-size: 13px; line-height: 1.25; }
+      .case-button span { display: block; margin-top: 5px; color: var(--muted); font-size: 11px; line-height: 1.25; }
+      .stage {
+        overflow: hidden; border: 1px solid var(--line); border-radius: 22px;
+        background: rgba(14,18,23,.93); box-shadow: 0 24px 70px rgba(0,0,0,.35);
+      }
+      .player-wrap { position: relative; background: #000; }
+      video { display: block; width: 100%; max-height: min(70vh, 820px); aspect-ratio: 16/9; object-fit: contain; background: #000; }
+      .player-badges {
+        position: absolute; left: 15px; top: 14px; display: flex; gap: 7px; flex-wrap: wrap;
+        pointer-events: none;
+      }
+      .badge {
+        padding: 6px 9px; border: 1px solid rgba(255,255,255,.17); border-radius: 999px;
+        color: #edf4f1; background: rgba(5,8,10,.72); backdrop-filter: blur(8px);
+        font-size: 11px; font-weight: 750; letter-spacing: .02em;
+      }
+      .badge.accent { color: #07100d; border-color: var(--accent); background: rgba(104,247,204,.92); }
+      .live-visualizer {
+        padding: 15px 16px 17px; border-top: 1px solid #202a31; border-bottom: 1px solid #263139;
+        background:
+          linear-gradient(180deg, rgba(13,19,24,.98), rgba(7,11,15,.98)),
+          radial-gradient(circle at 85% 0, rgba(104,247,204,.08), transparent 42%);
+      }
+      .viz-head {
+        display: flex; align-items: center; justify-content: space-between; gap: 18px;
+        padding: 0 2px 11px;
+      }
+      .viz-live { display: flex; align-items: center; gap: 9px; color: #cbd5d2; font-size: 12px; font-weight: 750; letter-spacing: .08em; text-transform: uppercase; }
+      .viz-live i {
+        width: 7px; height: 7px; border-radius: 50%; background: #62706b;
+        box-shadow: 0 0 0 4px rgba(98,112,107,.12); transition: .2s ease;
+      }
+      .viz-live.is-live i { background: var(--accent); box-shadow: 0 0 0 4px rgba(104,247,204,.13), 0 0 16px rgba(104,247,204,.68); }
+      .viz-direction { color: #65736f; font-size: 11px; letter-spacing: .04em; }
+      .viz-clock { color: #dce7e3; font: 650 12px ui-monospace, SFMono-Regular, Menlo, monospace; font-variant-numeric: tabular-nums; }
+      .stream-row { display: grid; grid-template-columns: 116px minmax(0,1fr); gap: 13px; align-items: stretch; }
+      .stream-row + .stream-row { margin-top: 9px; }
+      .stream-label {
+        display: flex; flex-direction: column; justify-content: center; padding: 9px 0 9px 2px;
+        border-top: 1px solid rgba(255,255,255,.055); border-bottom: 1px solid rgba(255,255,255,.055);
+      }
+      .stream-label strong { color: #e7efec; font-size: 12px; line-height: 1.25; }
+      .stream-label span { margin-top: 5px; color: #667570; font-size: 10px; line-height: 1.3; }
+      .stream-track {
+        position: relative; min-width: 0; overflow: hidden; border: 1px solid #29363d; border-radius: 9px;
+        background: #05080b; box-shadow: inset 0 0 30px rgba(0,0,0,.5);
+      }
+      .stream-track::before {
+        content: ""; position: absolute; inset: 0; z-index: 2; pointer-events: none;
+        background:
+          repeating-linear-gradient(to left, transparent 0, transparent calc(12.5% - 1px), rgba(255,255,255,.055) 12.5%),
+          linear-gradient(to right, rgba(5,8,11,.48), transparent 10%, transparent 92%, rgba(104,247,204,.07));
+      }
+      .stream-track::after {
+        content: ""; position: absolute; z-index: 3; right: 4px; top: 0; bottom: 0; width: 1px;
+        background: rgba(104,247,204,.92); box-shadow: 0 0 10px rgba(104,247,204,.48); pointer-events: none;
+      }
+      .stream-track canvas { display: block; width: 100%; height: 100%; }
+      .mel-track { height: 112px; }
+      .stream-now {
+        position: absolute; z-index: 4; right: 9px; top: 7px; color: var(--accent);
+        font: 750 9px ui-monospace, SFMono-Regular, Menlo, monospace; letter-spacing: .08em;
+        text-shadow: 0 1px 6px #000;
+      }
+      .stream-past {
+        position: absolute; z-index: 4; left: 9px; bottom: 6px; color: rgba(215,226,222,.48);
+        font: 650 9px ui-monospace, SFMono-Regular, Menlo, monospace; letter-spacing: .08em;
+        text-shadow: 0 1px 5px #000;
+      }
+      .stage-body { padding: 20px 22px 24px; }
+      .stage-head { display: flex; justify-content: space-between; gap: 22px; align-items: flex-start; }
+      .stage-head h2 { margin: 3px 0 0; font-size: clamp(24px, 3vw, 38px); letter-spacing: -.035em; line-height: 1.08; }
+      .kicker { margin: 0; color: var(--accent-2); font-size: 12px; font-weight: 800; letter-spacing: .1em; text-transform: uppercase; }
+      .case-note { margin: 7px 0 0; color: var(--muted); font-size: 13px; }
+      .method-switch { display: flex; justify-content: flex-end; gap: 7px; flex-wrap: wrap; max-width: 600px; }
+      .method-button {
+        min-height: 36px; padding: 0 12px; border: 1px solid #334039; border-radius: 9px;
+        background: #11171b; color: #aeb9b5; cursor: pointer;
+      }
+      .method-button:hover { color: var(--text); border-color: #50635b; }
+      .method-button.active { color: #07100d; border-color: var(--accent); background: var(--accent); font-weight: 800; }
+      .prompt-panel { margin-top: 22px; border-top: 1px solid var(--line); padding-top: 18px; }
+      .prompt-panel summary {
+        display: flex; align-items: center; justify-content: space-between; gap: 20px;
+        cursor: pointer; list-style: none; color: #d8dfdc; font-weight: 700; font-size: 14px;
+      }
+      .prompt-panel summary::-webkit-details-marker { display: none; }
+      .prompt-panel summary span { color: var(--muted); font-size: 12px; font-weight: 500; }
+      .prompt-list { display: grid; gap: 9px; margin-top: 15px; }
+      .prompt-row {
+        display: grid; grid-template-columns: 54px minmax(0,1fr); gap: 12px;
+        padding: 11px 12px; border-radius: 11px; background: #0c1014;
+      }
+      .prompt-row b { color: var(--accent); font: 700 12px ui-monospace, SFMono-Regular, Menlo, monospace; }
+      .prompt-row p { margin: 0; color: #b8c2be; font-size: 14px; line-height: 1.55; }
+      .foot {
+        display: flex; align-items: center; justify-content: space-between; gap: 22px;
+        margin-top: 28px; padding-top: 17px; border-top: 1px solid rgba(255,255,255,.08);
+        color: #74807c; font-size: 12px;
+      }
+      .foot code { color: #8f9b97; font-size: 11px; overflow-wrap: anywhere; }
+      .loading { min-height: 55vh; display: grid; place-items: center; color: var(--muted); }
+      .loading::before {
+        content: ""; width: 23px; height: 23px; border: 2px solid #34413c;
+        border-top-color: var(--accent); border-radius: 50%; animation: spin .75s linear infinite;
+      }
+      @keyframes spin { to { transform: rotate(360deg); } }
+      @media (max-width: 980px) {
+        .shell { width: min(100% - 24px, 780px); padding-top: 12px; }
+        .top-meta { display: none; }
+        .intro { grid-template-columns: 1fr; gap: 22px; padding: 34px 0 22px; }
+        .intro-copy { justify-self: start; }
+        .workspace { grid-template-columns: 1fr; }
+        .case-rail { max-height: none; overflow: visible; padding: 0; }
+        .case-list { display: flex; overflow-x: auto; gap: 9px; padding: 2px 0 11px; scroll-snap-type: x mandatory; }
+        .case-button { flex: 0 0 220px; grid-template-columns: 76px minmax(0,1fr); scroll-snap-align: start; }
+        .case-button img { width: 76px; }
+        .stage-head { display: grid; }
+        .method-switch { justify-content: flex-start; }
+        .stream-row { grid-template-columns: 94px minmax(0,1fr); }
+      }
+      @media (max-width: 620px) {
+        .shell { width: min(100% - 16px, 560px); }
+        .brand span { display: none; }
+        h1 { font-size: 46px; }
+        .section-tabs { gap: 6px; overflow-x: auto; }
+        .section-tab { white-space: nowrap; padding: 0 12px; }
+        .stage { border-radius: 16px; }
+        .stage-body { padding: 16px 14px 18px; }
+        .method-switch { display: grid; grid-template-columns: repeat(2, minmax(0,1fr)); width: 100%; }
+        .method-button { padding: 0 8px; }
+        .prompt-row { grid-template-columns: 42px minmax(0,1fr); padding: 10px; }
+        .live-visualizer { padding: 12px 10px 13px; }
+        .viz-direction { display: none; }
+        .stream-row { grid-template-columns: 1fr; gap: 5px; }
+        .stream-row + .stream-row { margin-top: 12px; }
+        .stream-label { display: block; padding: 0 1px; border: 0; }
+        .stream-label strong, .stream-label span { display: inline; }
+        .stream-label span { margin: 0 0 0 7px; }
+        .mel-track { height: 92px; }
+        .foot { display: grid; }
+      }
+      /* Compact academic gallery: content and comparison controls first. */
+      :root { color-scheme: light; --bg:#ffffff; --panel:#ffffff; --panel-2:#f6f8fa; --line:#dde2e8; --text:#192330; --muted:#657080; --accent:#254c78; --accent-2:#254c78; --radius:8px; }
+      body { background:#fff; }
+      .shell { width:min(1480px,calc(100% - 48px)); padding:20px 0 36px; }
+      .topbar { min-height:52px; border-bottom:1px solid var(--line); }
+      .brand strong { font-size:24px; font-weight:650; letter-spacing:-.035em; }
+      .section-tabs { padding:18px 0; background:rgba(255,255,255,.96); gap:10px; }
+      .section-tab { border-radius:6px; background:#fff; color:#526071; font-size:14px; }
+      .section-tab:hover { border-color:#8a9bb0; color:#192330; }
+      .section-tab.active { background:#edf2f8; color:#254c78; border-color:#9bafc8; font-weight:650; }
+      .section-tab small { font-size:12px; background:#e4eaf1; }
+      .workspace { grid-template-columns:272px minmax(0,1fr); gap:24px; }
+      .workspace > * { min-width:0; }
+      .case-list { gap:5px; }
+      .case-button { border-radius:6px; grid-template-columns:82px minmax(0,1fr); gap:10px; padding:7px; }
+      .case-button:hover { background:#f4f6f9; }
+      .case-button.active { border-color:#c0ccdb; background:#edf2f8; }
+      .case-button img { width:82px; border-radius:4px; border-color:#dce2e8; }
+      .case-button strong { font-size:14px; font-weight:600; color:var(--text); }
+      .case-button span { font-size:13px; line-height:1.4; }
+      .stage { border-radius:8px; background:#fff; box-shadow:none; }
+      .stage-body { padding:20px; }
+      .stage-head h2 { font-size:23px; letter-spacing:-.02em; line-height:1.3; }
+      .case-source { color:var(--muted); margin:5px 0 0; font-size:14px; }
+      .method-button { border-color:#d0d8e2; border-radius:5px; background:#fff; color:#526071; font-size:14px; }
+      .method-button:hover { color:#192330; border-color:#8a9bb0; }
+      .method-button.active { color:#fff; background:#254c78; border-color:#254c78; font-weight:600; }
+      .badge { border-radius:4px; font-size:12px; }
+      .badge.accent { background:#254c78; color:#fff; border-color:#254c78; }
+      .playback-notice { margin:0; padding:12px 16px; color:#425166; background:#f4f6f9; font-size:14px; line-height:1.5; }
+      .playback-notice a { color:#254c78; font-weight:600; }
+      .prompt-panel summary { color:#27374a; }
+      .prompt-panel summary span { color:#657080; }
+      .prompt-row { background:#f7f8fa; border-color:#e4e8ed; border-radius:5px; }
+      .prompt-row p { color:#425166; font-size:14px; line-height:1.6; }
+      .prompt-row b { color:#254c78; }
+      .viz-live.is-live i { background:#9bc1ed; box-shadow:none; }
+      .paper-nav { display:flex; gap:26px; }
+      .paper-nav a { color:#526071; text-decoration:none; font-size:14px; }
+      .paper-nav a:hover { color:#254c78; }
+      .paper-hero { max-width:980px; margin:0 auto; padding:74px 20px 48px; text-align:center; }
+      .paper-hero h1 { max-width:none; font-size:clamp(34px,4.2vw,58px); line-height:1.16; letter-spacing:-.035em; font-weight:700; }
+      .paper-hero h1 span { color:#254c78; }
+      .paper-authors { margin:25px 0 0; color:#657080; font-size:17px; }
+      .author-list { display:flex; justify-content:center; flex-wrap:wrap; gap:12px 26px; margin:26px auto 0; padding:0; list-style:none; max-width:930px; color:#254c78; font-size:19px; line-height:1.55; }
+      .author-list li { white-space:nowrap; }
+      .author-list a { color:inherit; text-decoration:none; text-underline-offset:3px; }
+      .author-list a:hover, .author-list a:focus-visible { text-decoration:underline; }
+      .author-list a:focus-visible { outline:2px solid #254c78; outline-offset:4px; border-radius:2px; }
+      .author-list sup { font-size:65%; margin-left:2px; }
+      .affiliations { margin:22px auto 0; color:#526071; font-size:16px; line-height:1.9; }
+      .affiliations span { display:inline-block; margin:0 10px; }
+      .corresponding-authors { margin:6px 0 0; color:#526071; font-size:16px; }
+      @font-face { font-family:Academicons; font-style:normal; font-weight:400; font-display:block; src:url('./assets/icons/academicons.woff') format('woff'); }
+      .resource-links { display:flex; justify-content:center; flex-wrap:wrap; gap:6px; margin:22px 0 0; }
+      .resource-button { display:inline-flex; justify-content:center; align-items:center; gap:8px; height:40px; padding:7px 20px; border:1px solid transparent; border-radius:9999px; background:#363636; color:#fff; font-family:inherit; font-size:16px; font-weight:400; line-height:1.5; text-decoration:none; white-space:nowrap; }
+      .resource-button[href]:hover { background:#292929; color:#fff; }
+      .resource-button:focus-visible { outline:3px solid #8db1d7; outline-offset:3px; }
+      .resource-button:disabled { opacity:1; cursor:default; }
+      .resource-icon { display:inline-flex; align-items:center; justify-content:center; width:18px; height:18px; flex:none; }
+      .resource-icon img { display:block; width:18px; height:18px; }
+      .resource-icon.github img { filter:brightness(0) invert(1); }
+      .resource-icon.arxiv { font-family:Academicons; font-style:normal; font-weight:400; line-height:1; }
+      .resource-icon.arxiv::before { content:'\e974'; }
+      .overview-video { max-width:1000px; margin:0 auto 12px; padding:8px 0 24px; }
+      .overview-video video { width:100%; max-height:none; border-radius:8px; border:1px solid var(--line); }
+      .paper-section { max-width:900px; margin:0 auto; padding:34px 0 48px; scroll-margin-top:24px; }
+      .paper-section h2, .results-heading { margin:0 0 24px; color:#192330; font-size:30px; line-height:1.3; letter-spacing:-.025em; text-align:center; }
+      .paper-section p { margin:0; font-size:17px; line-height:1.85; color:#465263; }
+      .paper-section strong { color:#26374a; font-weight:600; }
+      .paper-method { max-width:1160px; }
+      .paper-method figure { margin:0; }
+      .paper-method img { display:block; width:100%; height:auto; }
+      .paper-method figcaption { max-width:960px; margin:22px auto 0; color:#657080; font-size:15px; line-height:1.75; }
+      .results-section { border-top:1px solid var(--line); padding-top:48px; margin-top:24px; scroll-margin-top:24px; }
+      .results-heading { margin-bottom:12px; }
+      @media(max-width:980px) { .workspace{grid-template-columns:minmax(0,1fr);} .shell{width:calc(100% - 24px);} .case-button{flex-basis:220px;} }
+      @media(max-width:620px) { .stage{border-radius:6px;} .section-tab{padding:0 10px;} .shell{width:calc(100% - 16px);} }
+      @media(max-width:620px) { .paper-nav{gap:15px;} .brand strong{font-size:20px;} .paper-hero{padding:48px 10px 28px;} .paper-section{padding:28px 12px 34px;} .paper-section p{font-size:16px;line-height:1.8;} .paper-section h2,.results-heading{font-size:26px;} .paper-method figcaption{font-size:14px;} }
+      @media(max-width:620px) { .author-list{font-size:16px;gap:10px 18px;} .affiliations{font-size:14px;} .affiliations span{margin:0 5px;} }
+    </style>
+  </head>
+  <body>
+    <div class="shell">
+      <header class="topbar">
+        <div class="brand">
+          <div><strong>WorldSonus</strong></div>
+        </div>
+        <nav class="paper-nav" aria-label="Page sections">
+          <a href="#abstract">Abstract</a><a href="#method">Method</a><a href="#results">Results</a>
+        </nav>
+      </header>
+
+      <section class="paper-hero" aria-labelledby="paperTitle">
+        <h1 id="paperTitle"><span>WorldSonus:</span><br>Bringing Sound to Worlds</h1>
+        <ul class="author-list" aria-label="Authors">
+          <li><a href="https://pengjunfang.com/" target="_blank" rel="noopener noreferrer">Pengjun Fang</a><sup>1,2</sup></li><li>Jingyi Fa<sup>3</sup></li><li>Kam Man Wu<sup>1,2</sup></li><li>Jiaming Wang<sup>2</sup></li>
+          <li>Haoyuan Huang<sup>2</sup></li><li>Yaguang Wu<sup>3</sup></li><li>Xiangjun Huang<sup>3</sup></li><li>Ziyang Ma<sup>4</sup></li>
+          <li>Weijia Chen<sup>2</sup></li><li>Hongyu Liu<sup>1</sup></li><li><a href="https://scholar.google.com/citations?user=dghq4MQAAAAJ&amp;hl=en" target="_blank" rel="noopener noreferrer">Zeyue Tian</a><sup>†1,2</sup></li><li><a href="https://cqf.io/" target="_blank" rel="noopener noreferrer">Qifeng Chen</a><sup>†1</sup></li>
+        </ul>
+        <p class="affiliations"><span><sup>1</sup> The Hong Kong University of Science and Technology</span><br><span><sup>2</sup> Noiz AI</span><span><sup>3</sup> MetaX</span><span><sup>4</sup> Shanghai Jiao Tong University</span></p>
+        <p class="corresponding-authors"><sup>†</sup> Corresponding authors</p>
+        <div class="resource-links" aria-label="Project resources">
+          <a class="resource-button" href="https://huggingface.co/FF2416/WorldSonus" target="_blank" rel="noopener noreferrer"><span class="resource-icon" aria-hidden="true"><img src="./assets/icons/huggingface.svg" alt=""></span><span>Weights</span></a>
+          <button class="resource-button" type="button" disabled title="Paper link coming soon" aria-label="arXiv — paper link coming soon"><span class="resource-icon arxiv" aria-hidden="true"></span><span>arXiv</span></button>
+          <a class="resource-button" href="https://github.com/NoizAI/WorldSonus" target="_blank" rel="noopener noreferrer"><span class="resource-icon github" aria-hidden="true"><img src="./assets/icons/github.svg" alt=""></span><span>Code</span></a>
+        </div>
+      </section>
+      <section class="overview-video" aria-label="WorldSonus demo video">
+        <video id="overviewVideo" controls playsinline preload="metadata" poster="./assets/posters/overview-ust-l4-frame0.jpg" data-hevc="https://soundreactor-wbench-public-728750562872-20260920.s3.us-east-2.amazonaws.com/demo-v1/overview-ust-l4-hq-20260930-v1/hevc/overview.mp4" data-fallback="https://soundreactor-wbench-public-728750562872-20260920.s3.us-east-2.amazonaws.com/demo-v1/overview-ust-l4-hq-20260930-v1/h264/overview.mp4"></video>
+      </section>
+      <section class="paper-section" id="abstract" aria-labelledby="abstractTitle">
+        <h2 id="abstractTitle">Abstract</h2>
+        <p>Recent advances in world models have enabled increasingly realistic visual synthesis. However, these generated environments remain largely silent. Bringing sound to world models poses three core challenges: <strong>real-time generation</strong> to keep pace with interactive video streams, <strong>interactive control</strong> to respond to mid-stream sound instructions, and <strong>spatially aligned stereo</strong> to reflect scene geometry and camera motion. To address these demands, we introduce WorldSonus, an interactive video-to-audio framework designed for real-time spatial sound synthesis in world models. For real-time generation, WorldSonus employs a streaming causal autoregressive diffusion architecture that synthesizes audio chunks at a low real-time factor (RTF) of 0.41. For interactive control, we incorporate an audio-centric captioning pipeline with chunk-indexed prompt scheduling, enabling dynamic manipulation of sound events during generation. For spatial alignment, we leverage high-quality stereo supervision curated from diverse stereo and ambisonic data. Extensive experiments demonstrate that while tailored for world models, WorldSonus generalizes effectively to open-domain video-to-audio benchmarks, matching or outperforming state-of-the-art bidirectional models in both acoustic quality and spatial alignment.</p>
+      </section>
+      <section class="paper-section paper-method" id="method" aria-labelledby="methodTitle">
+        <h2 id="methodTitle">Method Overview</h2>
+        <figure>
+          <a href="./assets/method-overview.png" target="_blank" rel="noopener" aria-label="Open full-size method overview">
+            <img src="./assets/method-overview.png" width="2800" height="1752" alt="WorldSonus architecture: causal streaming audiovisual generation, training-only temporal alignment, spatial stereo supervision, and time-varying prompt control." loading="lazy">
+          </a>
+          <figcaption><strong>Overview of WorldSonus.</strong> (a) <strong>Causal streaming pipeline:</strong> Video frames map to two-timescale visual tokens conditioning an AR transformer and a rectified-flow head. (b) <strong>Training-only ShiftNCE:</strong> A training-only frozen Synchformer teacher guides temporal alignment via contrastive window matching. (c) <strong>Spatial stereo supervision:</strong> In-the-wild stereo filtering and panoramic FOA view-decoding provide directional audio grounding. (d) <strong>Interactive prompt control:</strong> Text prompts update dynamically at chunk boundaries, preserving session state and acoustic continuity.</figcaption>
+        </figure>
+      </section>
+      <section class="results-section" id="results" aria-labelledby="resultsTitle">
+        <h2 class="results-heading" id="resultsTitle">Results</h2>
+        <nav class="section-tabs" id="sectionTabs" aria-label="Demo sections"></nav>
+        <main id="app"><div class="loading" aria-label="Loading examples"></div></main>
+      </section>
+
+    </div>
+
+    <script src="./assets/mel-timeline.js"></script>
+    <script>
+      const state = { data: null, section: null, caseId: null, method: null };
+      let liveVisualizer = null;
+      const app = document.querySelector('#app');
+      const tabs = document.querySelector('#sectionTabs');
+      // canPlayType('hvc1') can under-report support; try the real HEVC stream first.
+      const videoUrl = video => video.url;
+      const overviewPlayer = document.querySelector('#overviewVideo');
+      overviewPlayer.src = overviewPlayer.dataset.hevc;
+      const fallbackOverview = () => {
+        if (overviewPlayer.src !== overviewPlayer.dataset.fallback) {
+          overviewPlayer.src = overviewPlayer.dataset.fallback;
+          overviewPlayer.load();
+        }
+      };
+      overviewPlayer.addEventListener('error', fallbackOverview);
+      overviewPlayer.addEventListener('loadedmetadata', () => {
+        // Some browsers accept the MP4 audio track but silently discard HEVC video.
+        if (!overviewPlayer.videoWidth) fallbackOverview();
+      });
+
+      const esc = (value) => String(value ?? '').replace(/[&<>"']/g, (char) => ({
+        '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;'
+      })[char]);
+
+      function hashState() {
+        const [section, caseId] = location.hash.replace(/^#\/?/, '').split('/');
+        return { section, caseId };
+      }
+
+      function activeSection() {
+        return state.data.sections.find((item) => item.id === state.section) ?? state.data.sections[0];
+      }
+
+      function activeCase() {
+        const section = activeSection();
+        return section.cases.find((item) => item.id === state.caseId) ?? section.cases[0];
+      }
+
+      function navigate(sectionId, caseId, replace = false) {
+        const next = `#/${sectionId}/${caseId}`;
+        const x = window.scrollX, y = window.scrollY;
+        if (replace) history.replaceState(null, '', next);
+        else history.pushState(null, '', next);
+        applyHash();
+        // A case is an in-place selection, not a document anchor navigation.
+        window.scrollTo({left:x, top:y, behavior:'instant'});
+      }
+
+      function applyHash() {
+        if (!state.data) return;
+        if (['#abstract', '#method', '#results'].includes(location.hash) && state.section) return;
+        const parsed = hashState();
+        const section = state.data.sections.find((item) => item.id === parsed.section) ?? state.data.sections[0];
+        const item = section.cases.find((row) => row.id === parsed.caseId) ?? section.cases[0];
+        if (state.section === section.id && state.caseId === item.id) return;
+        state.section = section.id;
+        state.caseId = item.id;
+        state.method = item.videos[0].id;
+        if (location.hash.startsWith('#/') && location.hash !== `#/${section.id}/${item.id}`) {
+          history.replaceState(null, '', `#/${section.id}/${item.id}`);
+        }
+        render();
+      }
+
+      function renderTabs() {
+        tabs.innerHTML = state.data.sections.map((section) => `
+          <button class="section-tab ${section.id === state.section ? 'active' : ''}"
+                  data-section="${esc(section.id)}">
+            <span class="wide-label">${esc(section.label)}</span>
+            <small>${section.cases.length}</small>
+          </button>
+        `).join('');
+        tabs.querySelectorAll('[data-section]').forEach((button) => {
+          button.onclick = () => {
+            const section = state.data.sections.find((item) => item.id === button.dataset.section);
+            navigate(section.id, section.cases[0].id);
+          };
+        });
+      }
+
+      function render() {
+        liveVisualizer?.destroy();
+        liveVisualizer = null;
+        const section = activeSection();
+        const item = activeCase();
+        const method = item.videos.find((video) => video.id === state.method) ?? item.videos[0];
+        renderTabs();
+        app.innerHTML = `
+          <div class="workspace">
+            <aside class="case-rail" aria-label="${esc(section.label)} examples">
+              <div class="case-list">
+                ${section.cases.map((row, index) => `
+                  <button class="case-button ${row.id === item.id ? 'active' : ''}"
+                          data-case="${esc(row.id)}">
+                    <img src="${esc(row.poster)}" alt="" loading="${index < 4 ? 'eager' : 'lazy'}" />
+                    <span>
+                      <strong>${esc(row.title)}</strong>
+                      <span>${esc(row.source_model || `${row.duration_sec}s`)}</span>
+                    </span>
+                  </button>
+                `).join('')}
+              </div>
+            </aside>
+
+            <article class="stage">
+              <div class="player-wrap">
+                <video id="mainVideo" controls playsinline preload="metadata" crossorigin="anonymous"
+                       poster="${esc(item.poster)}" src="${esc(videoUrl(method))}" data-fallback="${esc(method.fallback_url || '')}" data-mel="${esc(JSON.stringify(method.mel || null))}"></video>
+                <div class="player-badges">
+                  <span class="badge accent" id="activeMethodBadge">${esc(method.label)}</span>
+                  <span class="badge" id="activeResolution">${esc(item.resolution)}</span>
+                  <span class="badge">${esc(item.duration_sec)} seconds</span>
+                </div>
+              </div>
+              <p class="playback-notice" id="playbackNotice" role="status" hidden></p>
+              <section class="live-visualizer" id="liveVisualizer" aria-label="Synchronized live Mel spectrogram">
+                <div class="viz-head">
+                  <div class="viz-live" id="vizLive"><i aria-hidden="true"></i><span id="vizStatus">Ready to play</span></div>
+                  <span class="viz-direction">PAST &larr; history flows left &larr; LIVE</span>
+                  <time class="viz-clock" id="vizClock">00:00.000</time>
+                </div>
+                <div class="stream-row">
+                  <div class="stream-label"><strong>Mel spectrogram</strong><span>80 bands · 20 Hz–16 kHz</span></div>
+                  <div class="stream-track mel-track">
+                    <canvas id="melStream" role="img" aria-label="Live Mel spectrogram flowing from right to left"></canvas>
+                    <span class="stream-past">PAST</span><span class="stream-now">NOW</span>
+                  </div>
+                </div>
+              </section>
+              <div class="stage-body">
+                <div class="stage-head">
+                  <div>
+                    <h2>${esc(item.title)}</h2>
+                    ${item.source_model ? `<p class="case-source">Video generated by ${esc(item.source_model)}</p>` : ''}
+                  </div>
+                  <div class="method-switch" role="group" aria-label="Audio method">
+                    ${item.videos.map((video) => `
+                      <button class="method-button ${video.id === method.id ? 'active' : ''}"
+                              data-method="${esc(video.id)}">${esc(video.label)}</button>
+                    `).join('')}
+                  </div>
+                </div>
+                <details class="prompt-panel" open>
+                  <summary>${esc(item.prompt_label)} <span>${item.prompts.length} prompt${item.prompts.length === 1 ? '' : 's'}</span></summary>
+                  <div class="prompt-list">
+                    ${item.prompts.map((prompt) => `
+                      <div class="prompt-row">
+                        <b>${Number(prompt.start_sec).toFixed(0)}s</b>
+                        <p>${esc(prompt.caption)}</p>
+                      </div>
+                    `).join('')}
+                  </div>
+                </details>
+              </div>
+            </article>
+          </div>
+        `;
+
+        app.querySelectorAll('[data-case]').forEach((button) => {
+          button.onclick = () => navigate(section.id, button.dataset.case);
+        });
+        app.querySelectorAll('[data-method]').forEach((button) => {
+          button.onclick = () => switchMethod(button.dataset.method);
+        });
+        const activeButton = app.querySelector('.case-button.active');
+        const rail = app.querySelector('.case-rail');
+        const list = app.querySelector('.case-list');
+        if (activeButton && window.matchMedia('(max-width:980px)').matches) {
+          list.scrollLeft = activeButton.offsetLeft - list.offsetLeft;
+        } else if (activeButton) {
+          rail.scrollTop = activeButton.offsetTop - list.offsetTop;
+        }
+        const player = app.querySelector('#mainVideo');
+        const notice = app.querySelector('#playbackNotice');
+        const showPlaybackError = () => {
+          if (player.dataset.fallback && player.src !== player.dataset.fallback) {
+            player.src = player.dataset.fallback;
+            player.load();
+            return;
+          }
+          const unsupported = player.error?.code === 4 || player.error?.code === 3;
+          notice.innerHTML = `${unsupported ? 'This browser could not play the video.' : 'The video could not be loaded.'} <a href="${esc(player.currentSrc || player.src)}" target="_blank" rel="noopener">Open or download video</a>`;
+          notice.hidden = false;
+        };
+        player.addEventListener('error', showPlaybackError);
+        player.addEventListener('loadstart', () => { notice.hidden = true; });
+        player.addEventListener('loadedmetadata', () => {
+          if (!player.videoWidth) { showPlaybackError(); return; }
+          document.querySelector('#activeResolution').textContent = `${player.videoWidth}×${player.videoHeight}`;
+        });
+        if (player.error) showPlaybackError();
+        initLiveVisualizer();
+      }
+
+      function initLiveVisualizer() {
+        liveVisualizer = window.createMelTimeline(document.querySelector('#mainVideo'));
+      }
+
+      function switchMethod(methodId) {
+        const item = activeCase();
+        const next = item.videos.find((video) => video.id === methodId);
+        if (!next || methodId === state.method) return;
+        const player = document.querySelector('#mainVideo');
+        const time = player?.currentTime || 0;
+        const wasPlaying = player && !player.paused;
+        state.method = methodId;
+        liveVisualizer?.reset();
+        player.pause();
+        player.dataset.fallback = next.fallback_url || '';
+        player.dataset.mel = JSON.stringify(next.mel || null);
+        player.src = videoUrl(next);
+        player.poster = item.poster;
+        player.load();
+        const restorePlayback = async () => {
+          if (state.method !== methodId) {
+            player.removeEventListener('loadedmetadata', restorePlayback);
+            return;
+          }
+          if (!player.videoWidth || !Number.isFinite(player.duration)) return;
+          player.removeEventListener('loadedmetadata', restorePlayback);
+          player.currentTime = Math.min(time, Math.max(0, player.duration - .1));
+          if (wasPlaying) await player.play().catch(() => {});
+        };
+        player.addEventListener('loadedmetadata', restorePlayback);
+        document.querySelectorAll('[data-method]').forEach((button) => {
+          button.classList.toggle('active', button.dataset.method === methodId);
+        });
+        document.querySelector('#activeMethodBadge').textContent = next.label;
+      }
+
+      window.addEventListener('hashchange', applyHash);
+      window.addEventListener('popstate', applyHash);
+      window.addEventListener('keydown', (event) => {
+        if (event.target.matches('input, textarea, select, button')) return;
+        if (!['ArrowLeft', 'ArrowRight'].includes(event.key)) return;
+        const section = activeSection();
+        const index = section.cases.findIndex((row) => row.id === activeCase().id);
+        const offset = event.key === 'ArrowRight' ? 1 : -1;
+        const next = section.cases[(index + offset + section.cases.length) % section.cases.length];
+        navigate(section.id, next.id);
+      });
+      document.addEventListener('visibilitychange', () => {
+        if (document.hidden) document.querySelectorAll('video').forEach(video => video.pause());
+      });
+      document.addEventListener('play', (event) => {
+        if (event.target instanceof HTMLVideoElement) document.querySelectorAll('video').forEach(video => {
+          if (video !== event.target) video.pause();
+        });
+      }, true);
+
+      fetch('./data.json')
+        .then((response) => {
+          if (!response.ok) throw new Error(`HTTP ${response.status}`);
+          return response.json();
+        })
+        .then((data) => {
+          state.data = data;
+          applyHash();
+          if (location.hash.startsWith('#/')) document.querySelector('#results').scrollIntoView({ block: 'start' });
+        })
+        .catch((error) => {
+          app.innerHTML = `<p role="alert">Unable to load the demo: ${esc(error.message)}</p>`;
+        });
+    </script>
+  </body>
+</html>
