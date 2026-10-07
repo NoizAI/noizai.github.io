@@ -1,6 +1,7 @@
 # WorldSonus project website
 
 The official project page is https://noizai.github.io/WorldSonus/.
+Paper: https://arxiv.org/abs/2610.08760.
 
 This public repository contains the static website and presentation assets only.
 Model weights: https://huggingface.co/FF2416/WorldSonus.
