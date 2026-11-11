@@ -353,7 +353,7 @@
         </div>
       </section>
       <section class="overview-video" aria-label="WorldSonus demo video">
-        <video id="overviewVideo" controls playsinline preload="metadata" poster="./assets/posters/overview-ust-l4-smaller-frame0.jpg" data-hevc="https://soundreactor-wbench-public-728750562872-20260920.s3.us-east-2.amazonaws.com/demo-v1/overview-ust-l4-smaller-hq-20261007-v1/hevc/overview.mp4" data-fallback="https://soundreactor-wbench-public-728750562872-20260920.s3.us-east-2.amazonaws.com/demo-v1/overview-ust-l4-smaller-hq-20261007-v1/h264/overview.mp4"></video>
+        <video id="overviewVideo" controls playsinline preload="metadata" poster="./assets/posters/overview-ust-l4-smaller-frame0.jpg" src="./assets/videos/worldsonus-demo-1080p-intro.mp4"></video>
       </section>
       <section class="paper-section" id="abstract" aria-labelledby="abstractTitle">
         <h2 id="abstractTitle">Abstract</h2>
@@ -384,20 +384,6 @@
       const tabs = document.querySelector('#sectionTabs');
       // canPlayType('hvc1') can under-report support; try the real HEVC stream first.
       const videoUrl = video => video.url;
-      const overviewPlayer = document.querySelector('#overviewVideo');
-      overviewPlayer.src = overviewPlayer.dataset.hevc;
-      const fallbackOverview = () => {
-        if (overviewPlayer.src !== overviewPlayer.dataset.fallback) {
-          overviewPlayer.src = overviewPlayer.dataset.fallback;
-          overviewPlayer.load();
-        }
-      };
-      overviewPlayer.addEventListener('error', fallbackOverview);
-      overviewPlayer.addEventListener('loadedmetadata', () => {
-        // Some browsers accept the MP4 audio track but silently discard HEVC video.
-        if (!overviewPlayer.videoWidth) fallbackOverview();
-      });
-
       const esc = (value) => String(value ?? '').replace(/[&<>"']/g, (char) => ({
         '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;'
       })[char]);
